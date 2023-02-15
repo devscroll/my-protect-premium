@@ -25,7 +25,7 @@
       
       .body-content-contrat{
         padding: 25px 30px;
-        background-color: #f4f4f4;
+        background-color: #dde1ff;
         color:#595959;
       }
 
@@ -59,7 +59,7 @@
         border-radius: 5px;
       }
     
-      .carre-grand{
+      .carre-grand {
         width:26px;
         height:24px;
         border: 1px solid #000000;
@@ -68,7 +68,7 @@
         border-right:0px;
       }
       
-      .carre-petit{
+      .carre-petit {
         width:20px;
         height:22px;
         border: 1px solid #000000;
@@ -80,6 +80,16 @@
       table.line-height-large tr td div {
         line-height: 30px;
       }
+
+      .creancier {
+        background: #fff;
+        padding: 20px  10px 0;
+        margin-left: 80px;
+        border: 2px solid #3b4694;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: normal;
+      }
     </style>
   
   </head>
@@ -88,14 +98,14 @@
     <img src="bandeau-my-protect-premium-groupama.png" id="image1">
 
     <div class="body-content-contrat">
-      <div class="bloc text-bleu" style=" text-align:center; color:#595959;">
+      <div class="bloc text-bleu" style=" text-align:center; color:#595959; line-height: 40px;">
         <h2>
           BULLETIN D'ADHÉSION
           <br>
           Protection Juridique des particuliers My Protect Premium N° 505 088
         </h2>
       </div>
-      
+      <br>
       <div class="bande-contrat">ASSURÉ(E)</div>
       
       <table style="width:100%; color:#595959;" class="mt-medium mb-medium line-height-large">
@@ -209,16 +219,17 @@
 
     <table class="mt-large mb-large line-height-large" style="width:100%; font-weight:bold; color:#595959; text-align: center;">
       <tr>
-        <td valign="top" width="50%">
-          <div>Fait à : Paris</div>
+        <td valign="top" width="100%">
+          <div>Fait à Paris, le : {{date}}</div>
           <div>Signature de l’assuré(e) : </div>
           <div>{{signature}}</div>
         </td>
-        <td valign="top" width="50%">
-          <div>Le : {{date}}</div>
-        </td>
       </tr>
     </table>
+
+    <br>
+    <br>
+    <br>
     
     <div class="bloc text-bleu" style="width:100%;"><span style="text-decoration: underline;">Retourner un exemplaire daté et signé à </span>:</div>
     <div class="bloc text-bleu" style="width:100%;">MY PROTECT PREMIUM – 87 avenue Kleber 75116 PARIS</div>
@@ -257,7 +268,12 @@
           <div>…………………………………………………………………………</div>
         </td>
         <td valign="top" width="50%">
-          <div style="text-align:right;"><img src="lettre_contrat/image/image1.png"></div>
+          <div class="creancier">
+            <b>Nom et adresse du créancier</b><br>
+            <p>MY PROTECT PREMIUM <br> 87 av KLEBER - 75116 Paris</p>
+            
+            <p><b>ICS - identifiant créancier SEPA :</b><br>FR 70ZZZ88EB95</b></p>
+          </div>
         </td>
       </tr>
     </table>
