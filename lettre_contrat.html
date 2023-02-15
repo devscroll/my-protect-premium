@@ -11,6 +11,7 @@
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
+        line-height: 22px;
       }
       
       #image1 {
@@ -28,13 +29,17 @@
         color:#595959;
       }
 
-      .text-bleu{
+      .text-bleu {
         font-weight:bold;
         color:#3b4694;
       }
 
       .mt-large {
         margin-top: 30px;
+      }
+
+      .mb-large {
+        margin-bottom: 30px;
       }
 
       .mt-medium {
@@ -45,12 +50,13 @@
         margin-bottom: 15px;
       }
     
-      .bande-contrat{
-        background-color:#3b4694; 
+      .bande-contrat {
+        background-color:#3b4694;
         color:#ffffff; 
         font-weight:bold;
-        padding: 3px 0px 3px 10px;
+        padding: 8px;
         width:100%;
+        border-radius: 5px;
       }
     
       .carre-grand{
@@ -70,6 +76,10 @@
         display:inline-block;
         border-right:0px;
       }
+
+      table.line-height-large tr td div {
+        line-height: 30px;
+      }
     </style>
   
   </head>
@@ -88,7 +98,7 @@
       
       <div class="bande-contrat">ASSURÉ(E)</div>
       
-      <table style="width:100%; color:#595959;" class="mt-medium mb-medium">
+      <table style="width:100%; color:#595959;" class="mt-medium mb-medium line-height-large">
         <tr>
           <td valign="top" width="16%" style="font-weight: bold;">
             <div>Nom:</div>
@@ -117,7 +127,7 @@
         </tr>
       </table>
       
-      <div class="bande-contrat">COTISATION ANNUELLE TTC DU CONTRAT 505 088</div>
+      <div class="bande-contrat mt-large">COTISATION ANNUELLE TTC DU CONTRAT 505 088</div>
       <table class="mt-medium">
         <tbody>
           <tr>
@@ -179,9 +189,9 @@
        Cette date sera retenue si le présent Bulletin d’Adhésion est retourné à My Protect Premium dans un délai de 10 jours à compter de sa signature, dans le cas contraire la date d’effet retenue sera celle de la réception du présent bulletin par l’assureur
       </div>
      
-      <div class="bande-contrat">DÉCLARATIONS DE L’ASSURÉ(E)</div>
+      <div class="bande-contrat mt-large">DÉCLARATIONS DE L’ASSURÉ(E)</div>
      
-     <table class="texte-petit mt-medium mb-medium" style="width:100%; text-align:justify; margin-top:5px; color:#595959;">
+     <table class="texte-petit mt-medium mb-medium" style="width:100%; text-align:justify; color:#595959;">
       <tr>
         <td valign="top" width="40%" style="padding-right:10px;">
           <div>L'assuré(e) déclare:</div>
@@ -195,9 +205,9 @@
       </tr>
     </table>
     
-    <div class="bande-contrat">BON POUR ACCORD</div>
+    <div class="bande-contrat mt-large">BON POUR ACCORD</div>
 
-    <table class="mt-medium mb-medium" style="width:100%; font-weight:bold; color:#595959;">
+    <table class="mt-large mb-large line-height-large" style="width:100%; font-weight:bold; color:#595959; text-align: center;">
       <tr>
         <td valign="top" width="50%">
           <div>Fait à : Paris</div>
@@ -234,16 +244,16 @@
     
     <br>
     
-    <div class="bande-contrat">MANDAT DE PRÉLÈVEMENT</div>
+    <div class="bande-contrat mt-large">MANDAT DE PRÉLÈVEMENT</div>
 
-    <table style="width:100%; font-weight:bold; margin-top:10px; color:#595959;">
+    <table class="mt-medium" style="width:100%; font-weight:bold; color:#595959;">
       <tr>
         <td valign="top" width="50%">
-          <div>Nom, prénoms et adresse du titulaire du compte à débiter</div>             
+          <div class="mb-medium">Nom, prénoms et adresse du titulaire du compte à débiter</div>             
           <div>…………………………………………………………………………</div>
           <div>…………………………………………………………………………</div>
           <br>    
-          <div>Nom de l’établissement teneur du compte à débiter</div>
+          <div class="mt-medium mb-medium">Nom de l’établissement teneur du compte à débiter</div>
           <div>…………………………………………………………………………</div>
         </td>
         <td valign="top" width="50%">
@@ -252,9 +262,10 @@
       </tr>
     </table>
     <br>
-    <div class="bloc" style="width:100%;"><span style="font-weight:bold;">COMPTE À DÉBITER </span>(Paiement récurrent répétitif)</div>
+    <div class="bloc mt-large" style="width:100%;"><span style="font-weight:bold;">COMPTE À DÉBITER </span>(Paiement récurrent répétitif)</div>
     <div class="bloc" style="width:100%;">IBAN Identifiant International de Compte Bancaire (International Bank Account Number) :</div>
-    <br><br>
+
+    <br>
 
     <div style="display:inline-block; margin-right:8px;">
       <div class="carre-petit"></div>
