@@ -1,0 +1,293 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Splash">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik">
+
+    <style>
+
+      body {
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    
+     .content-conseil {
+        padding: 25px 30px;
+        background-color: #F2F2F8;
+        color:#595959;
+      }
+
+      div {
+        color:#595959;
+      }
+    
+      .image-template {
+        width:100%;
+      }
+
+      #image1 {
+        width: 100%;
+      }
+      
+      .bande-conseil {
+        background-color:#3b4694;
+        color:#ffffff; 
+        font-weight:bold;
+        padding: 8px;
+        width:100%;
+        border-radius: 5px;
+      }
+
+      .mt-large {
+        margin-top: 20px;
+      }
+
+      .mb-large {
+        margin-bottom: 20px;
+      }
+
+      .mt-medium {
+        margin-top: 10px;
+      }
+
+      .mb-medium {
+        margin-bottom: 10px;
+      }
+      
+      .table-conseil {
+        margin-top: 20px;
+        width: 100%;
+      }
+      
+      ul li::marker {
+        color: #f9405a;
+      }
+
+      .text-bleu {
+        font-weight:bold;
+        color:#3b4694;
+      }
+
+      .texte-petit {
+        font-size: 11px;
+        line-height: 14px;
+      }
+
+      table.line-height-large tr td div {
+        line-height: 20px;
+      }
+
+      .table-conseil ul li {
+        font-size: 12px;
+      }
+
+      .adresse div {
+        line-height: 20px;
+      }
+    
+      .encart-signature {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .signature {
+        padding: 40px 80px 40px 40px;
+        border: 3px solid #3b4694;
+        border-radius: 15px;
+        display: inline-block;
+      }
+
+      .label-signature-1, .label-signature-2 {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+        text-align: left;
+        width: 60%;
+        background: #F2F2F8;
+        padding: 0 20px;
+      }
+
+      .label-signature-1 {
+        top: -10px;
+      }
+
+      .label-signature-2 {
+        bottom: -25px;
+      }
+    </style>
+  </head>
+
+  <body >
+    <img src="bandeau-my-protect-premium-groupama.png" id="image1">
+    
+    <div class="content-conseil">
+      
+      <table class="table-conseil line-height-large" style="font-size: 12px;">
+        <tr>
+          <td valign="top" width="50%">
+            <div><span class="text-bleu">N° de contrat: </span>{{demande}}</div>
+            <div><span class="text-bleu">Date d’effet: </span>{{date}}</div>
+            <div>Paris, le {{date}}</div>
+          </td>
+          <td valign="top" width="50%" style="text-align: right;" class="adresse">
+            <div>{{titre}} {{prenom}} {{nom}}</div>
+            <div>{{Adresse1}}</div>
+            <div>{{Adresse2}}</div>
+            <div>{{Code_postal}} {{Ville}}</div>
+            <div>{{pays}}</div>
+          </td>
+        </tr>
+      </table>
+
+		  <div class="mt-medium text-bleu">
+        Objet : Conseil pour votre assurance de protection juridique
+      </div>
+      
+      <div>
+		    <div style="margin: 7px 0px 7px 0px;">{{titre}} {{nom}},</div>
+        <div style="line-height:15px;">Nous faisons suite à notre entretien du {{date}} au cours duquel nous avons étudié ensemble la formule d’assurance de protection juridique adaptée à votre situation.
+           Vous nous avez communiqué des éléments patrimoniaux pour évaluer vos besoins: </div>
+        <div class="text-bleu mt-medium mb-medium">
+          Suite à nos échanges, nous vous conseillons le contrat protection juridique My Protect Premium comprenant les prestations et garanties suivantes :</div>
+        </div>
+      
+      <div class="bande-conseil mt-large">Les prestations :</div>
+      
+      <table class="table-conseil">
+        <tr>
+          <td valign="top" width="50%" >
+            <ul>
+              <li><span>L’information juridique par téléphone et en ligne</span></li>
+              <li><span>L’assistance «signature contrats » et « formulaires et déclarations »</span></li>
+            </ul>
+          </td>
+          <td valign="top" width="50%">
+            <ul>
+              <li><span>La défense de vos intérêts par la recherche d’une solution amiable,</span></li>
+              <li><span>La prise en charge de frais et honoraires en cas de procédure judiciaire</span></li>
+            </ul>
+  			  </td>
+        </tr>
+      </table>
+    
+      <div class="bande-conseil mt-medium">Les garanties :</div>
+        <table class="table-conseil">
+          <tr>
+            <td valign="top" width="50%">
+              <ul>
+                <li><span>Fiscal : accompagnement, recours précontentieux et contentieux, et prise en charge au titre du barème contractuel en cas de contestation d’un avis de redressement fiscal</span></li>
+                <li><span>Succession</span></li>
+                <li><span>Dons et legs</span></li>
+                <li><span>Filiation/ Adoption</span></li>
+                <li><span>Changement de régime matrimonial</span></li>
+                <li><span>Divorce toutes causes ou dissolution d’un PACS</span></li>
+                <li><span>Pension et obligation alimentaire</span></li>
+                <li><span>Travail</span></li>
+                <li><span>Protection Sociale</span></li>
+                <li><span>Emplois familiaux</span></li>
+              </ul>
+            </td>
+            
+            <td valign="top" width="50%">
+              <ul>
+                <li><span>Consommation, sport, loisirs, voyages</span></li>
+                <li><span>Santé</span></li>
+                <li><span>Automobile/ Moto</span></li>
+                <li><span>Infraction au code de la route</span></li>
+                <li><span>Habitat</span></li>
+                <li><span>Travaux</span></li>
+                <li><span>Aide aux victimes</span></li>
+                <li><span>Défense pénale</span></li>
+                <li><span>Usurpation d’identité</span></li>
+                <li><span>Deuil numérique</span></li>
+                <li><span>E-réputation</span></li>
+                <li><span>Administration</span></li>
+              </ul>
+    			  </td>
+          </tr>
+        </table>
+        
+      <div class="texte-petit">
+        Vous pouvez retrouver le détail, les limites et les conditions de mise en œuvre des garanties dans les dispositions générales que nous vous avons adressées.
+      </div>
+
+      <div style="page-break-before:always;"></div>
+
+     <div class="bande-conseil mt-large">Votre cotisation :</div>
+
+      <div style="padding: 20px;">
+        <div>Votre cotisation annuelle s’élèvera à un montant total de 180 €, découpée comme suit :</div>
+        <table class="table-conseil">
+          <tr>
+            <td valign="top" width="50%" >
+              <div style="padding-left:15px;">- Frais de courtage : 80 €</div>
+              <div style="padding-left:15px;">- Honoraires : 86,08 €</div>
+            </td>
+            <td valign="top" width="50%">
+              <div style="padding-left:15px;">- Taxes (13,4%) : 6,96 €</div>
+              <div style="padding-left:15px;">- Prime protection juridique HT : 173,04€</div>
+            </td>
+          </tr>
+        </table>
+        
+        <div class="mt-medium">En espérant que ces informations vous auront permis d’éclairer votre choix d’assurance, nous vous prions d’agréer, {{titre}}, l’expression de nos salutations dévouées.</div>
+        <div class="mt-medium">Cordialement,</div>
+      </div>
+
+    <table class="table-conseil mb-large" style="width:100%;">
+      <tr>
+        <td valign="top" width="50%" align="center">
+          <div class="text-bleu mb-large">Le souscripteur </div>
+          <br>
+          <div class="encart-signature">
+            <div class="label-signature-1">SIGNATURE</div>
+            <div class="signature">
+              {{signature}}
+            </div>
+            <div class="label-signature-2" style="line-height: 20px;">
+              ELECTRONIQUE<br>PAR EMAIL
+            </div>
+          </div>
+        </td>
+        <td valign="top" width="50%" align="center">
+          <span class="text-bleu">Le mandataire </span>
+        </td>
+      </tr>
+    </table>
+
+    <br><br><br>
+
+		<div class="text-bleu texte-petit">POUR VOTRE INFORMATION: </div>
+
+    <table class="table-conseil texte-petit" style="width:100%;text-align: justify; margin: 0;">
+      <tr>
+        <td valign="top" width="40%" style="padding-right:10px;">
+          <div style="font-weight:bold;">Traitement des réclamations:</div>
+          <div>Pour toute demande d’information ou toute réclamation (désaccord, mécontentement) relative à votre contrat d’assurance, vous pouvez vous adresser à notre service client aux coordonnées qui figurent sur vos Dispositions Générales.
+             Nous nous engageons à accuser réception de votre réclamation dans un délai maximum de 10 jours ouvrables à partir de sa date d’envoi.
+             La réponse définitive à votre réclamation vous sera apportée dans un délai de traitement de 60 jours ouvrés au plus. Si cette réponse ne vous satisfait pas, vous pouvez saisir la Médiation de l’Assurance sur le site www.mediation-assurance.org ou par courrier (Médiation de l'Assurance TSA 50110, 75441 Paris Cedex 09).</div>
+        </td>
+        <td valign="top" width="40%" style="padding-left:10px;">
+          <p>Si l'avis de la Médiation de l'assurance ne vous satisfait pas, vous pouvez éventuellement saisir la justice.</p>
+          <p>Pour la distribution des contrats d'assurance, la rémunération de votre mandataire comprend notamment des éléments variables et des avantages non pécuniaires.</p>
+          <div style="font-weight:bold;">Protection des données personnelles:</div>
+          <div>Vous avez été informé de vos droits relatifs au traitement de vos données personnelles (droit d’accès, de rectification, de suppression, d’opposition, droit à la portabilité) dans les documents remis antérieurement par l’Assureur.</div>
+        </td>
+      </tr>
+    </table>
+  <br>
+    <div style="font-size:12px; margin-top:8px; padding:8px 0px 8px 0px; border:2px solid red; text-align:center; font-weight:bold;">Merci de communiquer ce code de validation <span style="font-size:15px; color:red;">{{code_confirmation}}</span> à votre interlocuteur.</div>
+  </div>
+    
+  </body>
+</html>
