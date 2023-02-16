@@ -36,7 +36,7 @@
         background-color:#3b4694;
         color:#ffffff; 
         font-weight:bold;
-        padding: 8px;
+        padding: 2px 5px;
         width:100%;
         border-radius: 5px;
       }
@@ -2519,7 +2519,7 @@
      <div class="bande-conseil mt-large">Votre cotisation :</div>
 
       <div style="padding: 20px;">
-        <div>Votre cotisation annuelle s’élèvera à un montant total de 180 €, découpée comme suit :</div>
+        <div>Votre cotisation annuelle s’élèvera à un montant total de 180 €, décomposée comme suit :</div>
         <table class="table-conseil">
           <tr>
             <td valign="top" width="50%" >
@@ -2545,10 +2545,10 @@
           <div class="encart-signature">
             <div class="label-signature-1">SIGNATURE</div>
             <div class="signature">
-              {{signature}} {{date_signature}}
+              {{signature}}
             </div>
             <div class="label-signature-2" style="line-height: 20px;">
-              ELECTRONIQUE<br><span style="font-size: 0.9em;">PAR EMAIL</span>
+              ELECTRONIQUE {{date_signature}}<br><span style="font-size: 0.9em;">PAR EMAIL</span>
             </div>
           </div>
         </td>
