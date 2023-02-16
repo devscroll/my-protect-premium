@@ -3,6 +3,7 @@
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Splash">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
 
     <style>
 
@@ -10,12 +11,12 @@
         width: 100%;
         margin: 0 auto;
         font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 14px;
       }
 
       table {
-        font-size: 14px;
+        font-size: 12px;
       }
       
       #image1 {
@@ -23,12 +24,12 @@
       }
 
       .texte-petit {
-        font-size: 11px;
-        line-height: 14px;
+        font-size: 10px !important;
+        line-height: 12px;
       }
       
       .body-content-contrat{
-        padding: 25px 30px;
+        padding: 5px 30px 25px 30px;
         background-color: #F2F2F8;
         color:#595959;
       }
@@ -39,19 +40,19 @@
       }
 
       .mt-large {
-        margin-top: 20px;
-      }
-
-      .mb-large {
-        margin-bottom: 20px;
-      }
-
-      .mt-medium {
         margin-top: 10px;
       }
 
-      .mb-medium {
+      .mb-large {
         margin-bottom: 10px;
+      }
+
+      .mt-medium {
+        margin-top: 5px;
+      }
+
+      .mb-medium {
+        margin-bottom: 5px;
       }
     
       .bande-contrat {
@@ -61,6 +62,7 @@
         padding: 8px;
         width:100%;
         border-radius: 5px;
+        font-size: 12px;
       }
     
       .carre-grand {
@@ -82,46 +84,55 @@
       }
 
       table.line-height-large tr td div {
-        line-height: 30px;
+        line-height: 20px;
       }
 
       .creancier {
         background: #fff;
-        padding: 20px  10px 0;
+        padding: 8px;
         margin-left: 40px;
         border: 2px solid #3b4694;
         border-radius: 5px;
         text-align: center;
         font-weight: normal;
+        font-size: 12px;
       }
 
       .encart-signature {
         position: relative;
         width: fit-content;
-        margin: auto;
+        margin: 20px auto 0;
         font-weight: normal;
-        font-size: 14px;
         line-height: 20px;
+        color: #000;
       }
 
       .signature {
-        padding: 40px 80px 40px 40px;
-        border: 3px solid #3b4694;
+        padding: 20px 80px 25px 20px;
+        border: 2px solid #3b4694;
+        border-right: none;
         border-radius: 15px;
         display: inline-block;
+        min-width: 200px;
+        text-align: left;
       }
 
-      .label-signature-1, .label-signature-2 {
+      .encart-signature .label-signature-1, .encart-signature .label-signature-2 {
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        left: 0;
+        left: 35px;
         right: 0;
         display: block;
         text-align: left;
         width: 60%;
         background: #F2F2F8;
-        padding: 0 20px;
+        padding-left: 5px;
+        width: 100%;
+        height: 28px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 18px;
+        font-size: 14px;
       }
 
       .label-signature-1 {
@@ -129,7 +140,7 @@
       }
 
       .label-signature-2 {
-        bottom: -25px;
+        bottom: -15px;
       }
     </style>
   
@@ -139,8 +150,8 @@
     <img src="bandeau-my-protect-premium-groupama.png" id="image1">
 
     <div class="body-content-contrat">
-      <div class="bloc text-bleu" style=" text-align:center; color:#595959; line-height: 25px;">
-        <h2>
+      <div class="bloc text-bleu" style=" text-align:center; color:#595959; font-size: 16px; line-height: 30px; font-weight: bold;">
+        <h2 style="margin-block-start: 0; margin-block-end: 5px;">
           BULLETIN D'ADHÉSION
           <br>
           Protection Juridique des particuliers
@@ -241,9 +252,7 @@
       <div class="bloc mt-medium mb-medium" style="width:100%; text-align:justify;">
        Cette date sera retenue si le présent Bulletin d’Adhésion est retourné à My Protect Premium dans un délai de 10 jours à compter de sa signature, dans le cas contraire la date d’effet retenue sera celle de la réception du présent bulletin par l’assureur
       </div>    
-      
-      <div style="page-break-before:always;"></div>
-      
+            
       <div class="bande-contrat mt-large">DÉCLARATIONS DE L’ASSURÉ(E)</div>
      
       <table class="texte-petit mt-medium mb-medium" style="width:100%; text-align:justify; color:#595959;">
@@ -262,19 +271,19 @@
 
       <div class="bande-contrat mt-large">BON POUR ACCORD</div>
 
-      <table class="mt-large mb-large line-height-large" style="width:100%; font-weight:bold; color:#595959; text-align: center;">
+      <table class="mt-large mb-large line-height-large" style="width:100%; font-weight:bold; color:#595959; text-align: center; font-size:12px;">
         <tr>
           <td valign="top" width="100%">
             <div>Fait à Paris, le : {{date}}</div>
             <div>Signature de l’assuré(e) : </div>
             <br>
-            <div class="encart-signature mt-large">
+            <div class="encart-signature">
               <div class="label-signature-1">SIGNATURE</div>
               <div class="signature">
-                {{signature}}
+                {{signature}} {{date_signature}}
               </div>
-              <div class="label-signature-2" style="line-height: 20px;">
-                ELECTRONIQUE<br>PAR EMAIL
+              <div class="label-signature-2">
+                ELECTRONIQUE<br><span style="font-size: 0.9em;">PAR EMAIL</span>
               </div>
             </div>
           </td>
@@ -304,9 +313,7 @@
         </td>
       </tr>
     </table>
-    
-    <div style="page-break-before:always;"></div>
-    
+        
     <div class="bande-contrat mt-large">MANDAT DE PRÉLÈVEMENT</div>
 
     <table class="mt-medium" style="width:100%; font-weight:bold; color:#595959;">
@@ -324,7 +331,7 @@
             <b>Nom et adresse du créancier</b><br>
             <p>MY PROTECT PREMIUM <br> 87 av KLEBER - 75116 Paris</p>
             
-            <p><b>ICS - identifiant créancier SEPA :</b><br>FR 70ZZZ88EB95</b></p>
+            <div><b>ICS - identifiant créancier SEPA :</b><br>FR 70ZZZ88EB95</b></div>
           </div>
         </td>
       </tr>
@@ -411,10 +418,10 @@
     <div class="encart-signature">
       <div class="label-signature-1">SIGNATURE</div>
       <div class="signature">
-        {{signature}}
+        {{signature}} {{date_signature}}
       </div>
       <div class="label-signature-2">
-        ELECTRONIQUE<br>PAR EMAIL
+        ELECTRONIQUE<br><span style="font-size: 0.9em;">PAR EMAIL</span>
       </div>
     </div>
 

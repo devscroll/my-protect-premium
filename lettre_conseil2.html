@@ -50,11 +50,11 @@
       }
 
       .mt-medium {
-        margin-top: 10px;
+        margin-top: 8px;
       }
 
       .mb-medium {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
       }
       
       .table-conseil {
@@ -97,24 +97,41 @@
         line-height: 20px;
       }
 
-      .signature {
-        padding: 40px 80px 40px 40px;
-        border: 3px solid #3b4694;
-        border-radius: 15px;
-        display: inline-block;
+      .encart-signature {
+        position: relative;
+        width: fit-content;
+        margin: 20px auto 0;
+        font-weight: normal;
+        line-height: 20px;
+        color: #000;
       }
 
-      .label-signature-1, .label-signature-2 {
+      .signature {
+        padding: 20px 80px 25px 20px;
+        border: 2px solid #3b4694;
+        border-right: none;
+        border-radius: 15px;
+        display: inline-block;
+        min-width: 200px;
+        text-align: left;
+      }
+
+      .encart-signature .label-signature-1, .encart-signature .label-signature-2 {
         position: absolute;
         margin-left: auto;
         margin-right: auto;
-        left: 0;
+        left: 35px;
         right: 0;
         display: block;
         text-align: left;
         width: 60%;
         background: #F2F2F8;
-        padding: 0 20px;
+        padding-left: 5px;
+        width: 100%;
+        height: 28px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 18px;
+        font-size: 14px;
       }
 
       .label-signature-1 {
@@ -122,7 +139,7 @@
       }
 
       .label-signature-2 {
-        bottom: -25px;
+        bottom: -15px;
       }
 
       .content-dipa {
@@ -224,6 +241,18 @@
         font-size: 10px;
         line-height: 11px;
         color: black;
+        padding: 17px;
+      }
+
+      .content-dg .titre-principal {
+        background-color: #002060;
+        padding: 5px;
+        border: 1px solid black;
+        color: white;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        margin-bottom: 5px;
       }
 
       .content-dg div {
@@ -277,10 +306,6 @@
         color: black;
       }
 
-      .center {
-        text-align: center;
-      }
-
       .bold {
         font-weight: 800;
       }
@@ -298,12 +323,13 @@
       }
 
       .content-dg .header img {
-        height: 20px;
-        max-height: 20px;
+        height: 30px;
+        max-height: 30px;
       }
 
       .content-dg .content {
         column-count: 2;
+        column-gap: 20px;
       }
 
       .content-dg .footer .pagination {
@@ -319,6 +345,10 @@
 
       .content-dg table.tableau tr, .content-dg table.tableau td {
         border: 1px solid black;
+      }
+
+      .content-dg .center {
+        text-align: center;
       }
 
     </style>
@@ -571,10 +601,10 @@
         </div>
 
         <div class="content mt-medium mb-medium">
-          <div>PROTECTION JURIDIQUE DES
+          <div class="titre-principal">PROTECTION JURIDIQUE DES
             PARTICULIERS MY PROTECT PREMIUM</div>
   
-          <div>Ce contrat, conforme aux lois n° 2007-210 du 19 Février 2007 et n°
+          <div class="center" style="border: 1px solid black; padding: 2px;">Ce contrat, conforme aux lois n° 2007-210 du 19 Février 2007 et n°
             89-1014 du 31 Décembre 1989 ainsi qu’au décret n° 90-697 du 1er
             Août 1990, est régi par le Code des Assurances.
             Il est constitué des Dispositions Générales qui suivent ainsi que des
@@ -647,7 +677,7 @@
               droit français applicables à votre interrogation.</span>
           </div>
 
-          <div class="bold background-gris-clair mt-medium">
+          <div class="bold background-gris-clair">
             Ce service peut être contacté du lundi au vendredi de 9h à 20h et le samedi de 9 h à 12 h 30, au numéro de téléphone suivant : 01 41 43 98 98 sauf jours fériés, (coût des
             communications selon le tarif en vigueur de votre opérateur
             de télécommunication).
@@ -665,10 +695,8 @@
             vous souhaitez une information régulière. 
           </div>
           <div>
-            Ce service est accessible de manière illimitée, en vous connectant sur
-            votre espace client : <a href="https://espaceclient.protectionjuridique.fr">https://espaceclient.protectionjuridique.fr</a>
-            L’accès est strictement réservé aux bénéficiaires du contrat de
-            protection juridique.
+            Ce service est accessible de manière illimitée, en vous connectant sur votre espace client&nbsp;: <a href="https://espaceclient.protectionjuridique.fr">https://espaceclient.protectionjuridique.fr</a>
+            L’accès est strictement réservé aux bénéficiaires du contrat de protection juridique.
           </div>
           <div class="bold">1.1.3 - LA PRESTATION « SIGNEZ EN TOUTE CONFIANCE »</div>
           <div class="bold underline">Assistance « contrats »</div>
@@ -2414,7 +2442,7 @@
         </tr>
       </table>
 
-		  <div class="mt-large mb-large text-bleu">
+		  <div class="mt-large mb-large text-bleu" style="font-size: 18px;">
         Objet : Conseil pour votre assurance de protection juridique
       </div>
       
@@ -2511,21 +2539,18 @@
 
     <table class="table-conseil mb-large" style="width:100%;">
       <tr>
-        <td valign="top" width="50%" align="center">
+        <td valign="top" width="100%" align="center">
           <div class="text-bleu mb-large">Le souscripteur </div>
           <br>
           <div class="encart-signature">
             <div class="label-signature-1">SIGNATURE</div>
             <div class="signature">
-              {{signature}}
+              {{signature}} {{date_signature}}
             </div>
             <div class="label-signature-2" style="line-height: 20px;">
-              ELECTRONIQUE<br>PAR EMAIL
+              ELECTRONIQUE<br><span style="font-size: 0.9em;">PAR EMAIL</span>
             </div>
           </div>
-        </td>
-        <td valign="top" width="50%" align="center">
-          <span class="text-bleu">Le mandataire </span>
         </td>
       </tr>
     </table>
