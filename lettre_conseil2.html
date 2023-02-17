@@ -143,8 +143,11 @@
       }
 
       .content-dipa {
-        padding: 20px;
         font-family: Arial, sans-serif;
+      }
+      
+      .content-dipa .page {
+        padding: 20px;
       }
 
       .content-dipa p {
@@ -197,16 +200,20 @@
         margin-block-start: 0;
         margin-block-end: 0;
       }
+      
+      .content-dipa ul li {
+        font-size: 9px;
+      }
 
       .content-dipa ul.check li:before {
-        content: '✓';
+        content: '?';
         color: #49a93f;
         margin-right: 5px;
         font-weight: bold;
       }
 
       .content-dipa ul.check-black li:before {
-        content: '✓';
+        content: '?';
         color: black;
         margin-right: 5px;
         font-weight: bold;
@@ -214,7 +221,7 @@
       }
 
       .content-dipa ul.carre-black li:before {
-        content: '■';
+        content: '?';
         color: black;
         margin-right: 5px;
         font-weight: bold;
@@ -222,7 +229,7 @@
       }
 
       .content-dipa ul.cross li:before {
-        content: '✘';
+        content: '?';
         color: #ed1b24;
         margin-right: 5px;
         font-weight: bold;
@@ -241,6 +248,9 @@
         font-size: 10px;
         line-height: 11px;
         color: black;
+      }
+      
+      .content-dg .page {
         padding: 17px;
       }
 
@@ -362,47 +372,48 @@
           <div class="texte-bleu mt-medium" style="font-size: 28px;"><b>Assurance Protection Juridique</b></div>
           <table style="width: 100%;">
             <tbody>
-              <tr style="display: flex; align-items: center; justify-content: center;">
+              <tr>
               <td valign="top" width="75%">
-                <div style="font-size: 18px; color: #000;">Document d’information sur le produit d’assurance</div>
+                <br>
+                <div style="font-size: 18px; color: #000;">Document d?information sur le produit d?assurance</div>
               </td>
               <td valign="top" width="25%" style="text-align: right;" class="adresse">
-                <img src="lettre_conseil/GPJ.png" alt="" style="max-width: 200px;">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="" style="max-width: 200px;">
               </td>
             </tr>
           </tbody></table>
           <p style="color: #000;"><b>Compagnie</b> : Société Française de Protection Juridique, sous la dénomination commerciale Groupama Protection
-            Juridique n° d’agrément 321 776 775 - Entreprise d’assurance française immatriculée en France et régie par le Code des
+            Juridique n° d?agrément 321 776 775 - Entreprise d?assurance française immatriculée en France et régie par le Code des
             assurances.</p>
           <div class="texte-bleu"><b>Produit</b> : Protection Juridique du particulier « MY PROTECT PREMIUM »</div>
         </div>
-        <p>Ce document présente un résumé des informations clés sur notre contrat d’assurance Protection Juridique du particulier MY PROTECT
+        <p style="margin: 2px 0;">Ce document présente un résumé des informations clés sur notre contrat d?assurance Protection Juridique du particulier MY PROTECT
           PREMIUM.</p>
-        <p>Une information précontractuelle et contractuelle complète est fournie dans les documents relatifs au contrat d’assurance.</p>
+        <p style="margin: 2px 0;">Une information précontractuelle et contractuelle complète est fournie dans les documents relatifs au contrat d?assurance.</p>
 
-        <div class="texte-bleu mt-medium" style="font-size: 16px; font-weight: bold;">De quel type d’assurance s’agit-il ?</div>
+        <div class="texte-bleu mt-medium" style="font-size: 14px; font-weight: bold;">De quel type d?assurance s?agit-il ?</div>
 
-        <p>Ce produit d’assurance de protection juridique permet la fourniture des services de conseil à l’assuré ou d’assistance à la prise en
-          charge par l’assureur de frais de procédures de l’assuré en cas de différend ou de litige opposant celui-ci à des tiers .
+        <p style="margin: 2px 0;">Ce produit d?assurance de protection juridique permet la fourniture des services de conseil à l?assuré ou d?assistance à la prise en
+          charge par l?assureur de frais de procédures de l?assuré en cas de différend ou de litige opposant celui-ci à des tiers.
         </p>
 
 
-        <div class="mt-medium" style="display: flex; gap: 20px;">
-          <div style="width: 50%; display: inline-block; ">
+        <div class="mt-medium">
+          <div style="width:45%; display:inline-block; vertical-align:top;">
             <div class="bloc-bordure-bleu">
               <div class="section-titre">
-                <img src="lettre_conseil/assure.png" alt="">
-                <div class="titre">Qu’est-ce qui est assuré ?</div>
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/assure.png" alt="">
+                <div class="titre">Qu?est-ce qui est assuré ?</div>
               </div>
-              <p><b>Les prestations</b></p>
+              <div class="texte-petit"><b>Les prestations</b></div>
               <ul class="check">
-                <li>Une prestation d’information juridique par téléphone tous domaines du droit</li>
+                <li>Une prestation d?information juridique par téléphone tous domaines du droit</li>
                 <li>Documentation juridique en ligne (DIGIDROIT)</li>
                 <li>Assistance « Signez en toute confiance »</li>
               </ul>
 
-              <p><b>La défense de vos droits dans un cadre amiable et/ou
-                judiciaire</b></p>
+              <div class="texte-petit"><b>La défense de vos droits dans un cadre amiable et/ou
+                judiciaire</b></div>
 
               <ul class="check">
                 <li>Garantie Travail</li>
@@ -416,9 +427,9 @@
                 <li>Garantie Travaux</li>
                 <li>Garantie Aide aux victimes</li>
                 <li>Garantie Défense Pénale</li>
-                <li>Garantie E-réputation, Usurpation d’identité et deuil numérique</li>
+                <li>Garantie E-réputation, Usurpation d?identité et deuil numérique</li>
                 <li>Garantie Administration</li>
-                <li>Garantie Divorce et dissolution d’un PACS</li>
+                <li>Garantie Divorce et dissolution d?un PACS</li>
                 <li>Garantie Successions</li>
                 <li>Garantie Dons et legs</li>
                 <li>Garantie Filiation /Adoption</li>
@@ -427,56 +438,56 @@
                 <li>Garantie Redressement Fiscal</li>
               </ul>
 
-              <p>Un plafond de garantie par sinistre de <b>25 000 €</b></p>
-              <p>Les garanties précédées d’une coche verte <b style="color: #49a93f; font-size: 20px;">✓</b> sont systématiquement prévues au contrat.</p>
+              <p>Un plafond de garantie par sinistre de <b>25 000 </b></p>
+              <p>Les garanties précédées d?une coche verte <b style="color: #49a93f; font-size: 20px;">?</b> sont systématiquement prévues au contrat.</p>
             </div>
           </div>
 
-          <div style="width: 50%;">
+          <div style="width:45%; display:inline-block; vertical-align:top;">
             <div class="bloc-bordure-bleu">
               <div class="section-titre">
-                <img src="lettre_conseil/non-assure.png" alt="">
-                <div class="titre">Qu’est-ce qui n’est pas assuré ?</div>
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/non-assure.png" alt="">
+                <div class="titre">Qu?est-ce qui n?est pas assuré ?</div>
               </div>
 
               <ul class="cross" style="margin-top: 2px">
-                <li>L’activité professionnelle non-salariée,</li>
+                <li>L?activité professionnelle non-salariée,</li>
                 <li>Les litiges liés à des travaux immobiliers soumis à permis de construire, démolir ou à déclaration préalable.</li>
-                <li>Les litiges relevant d’une garantie « Protection Juridique Recours » ou « Défense Pénale et recours en cas d’accident » incluse dans un autre contrat d’assurance,</li>
+                <li>Les litiges relevant d?une garantie « Protection Juridique Recours » ou « Défense Pénale et recours en cas d?accident » incluse dans un autre contrat d?assurance,</li>
                 <li>Les litiges couverts par une assurance obligatoire.</li>
               </ul>
             </div>
 
             <div class="bloc-bordure-bleu mt-medium">
               <div class="section-titre">
-                <img src="lettre_conseil/exclusions.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/exclusions.png" alt="">
                 <div class="titre">Y-a-t-il des exclusions à la couverture ?</div>
               </div>
 
-              <p><b>Les principales exclusions de votre contrat sont&nbsp;:</b></p>
+              <div class="texte-petit"><b>Les principales exclusions de votre contrat sont&nbsp;:</b></div>
               <ul class="exclamation">
-                <li>Les litiges résultant de faits antérieurs à la prise d’effet du contrat,</li>
-                <li>Les litiges découlant d’une faute intentionnelle de votre part,</li>
-                <li>Les litiges pour dette incontestable ou liés à votre insolvabilité ou celle d’un tiers,</li>
+                <li>Les litiges résultant de faits antérieurs à la prise d?effet du contrat,</li>
+                <li>Les litiges découlant d?une faute intentionnelle de votre part,</li>
+                <li>Les litiges pour dette incontestable ou liés à votre insolvabilité ou celle d?un tiers,</li>
                 <li>Les actions qui ne sont pas fondées juridiquement.</li>
               </ul>
 
-              <p><b>Votre contrat comporte par ailleurs certaines restrictions :</b></p>
+              <div class="texte-petit"><b>Votre contrat comporte par ailleurs certaines restrictions :</b></div>
               <ul class="exclamation">
                 <li>Un délai de carence de :</li>
                 <li>6 mois pour la garantie « travail »</li>
-                <li>24 mois pour les garanties : Divorce ou dissolution d’un PACS, succession, Incapacité, Dons et legs, Filiation / Adoption</li>
+                <li>24 mois pour les garanties : Divorce ou dissolution d?un PACS, succession, Incapacité, Dons et legs, Filiation / Adoption</li>
                 <li>12 mois pour les garanties : Droit de visite des grands-parents, changement de régime matrimonial et Pension alimentaire.</li>
-                <li>Un seuil d’intervention de 230 € à l’amiable et de 500 € au judiciaire.</li>
-                <li>Un remboursement des honoraires d’avocat selon un barème par juridiction</li>
+                <li>Un seuil d?intervention de 230  à l?amiable et de 500  au judiciaire.</li>
+                <li>Un remboursement des honoraires d?avocat selon un barème par juridiction</li>
               </ul>
 
-              <b>Ne sont jamais pris en charge :</b>
+              <div class="texte-petit"><b>Ne sont jamais pris en charge :</b></div>
 
               <ul class="exclamation">
                 <li>Les condamnations, dépens et frais exposés par la partie adverse que le tribunal estime équitable de vous faire supporter</li>
                 <li>Les honoraires de résultat,</li>
-                <li>Les frais et honoraires d’enquête pour identifier ou retrouver votre adversaire ou connaître la valeur de son patrimoine</li>
+                <li>Les frais et honoraires d?enquête pour identifier ou retrouver votre adversaire ou connaître la valeur de son patrimoine</li>
               </ul>
             </div>
           </div>
@@ -489,20 +500,20 @@
       <div class="page page-2">
         <div class="bloc-bordure-bleu">
           <div class="section-titre">
-            <img src="lettre_conseil/lieux.png" alt="">
+            <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/lieux.png" alt="">
             <div class="titre">Où suis-je couvert ?</div>
           </div>
 
           <ul class="check-black" style="margin-block-start: 5px; padding-left: 60px;">
-            <li>France, Principautés de Monaco et d’Andorre.</li>
-            <li>Dans les Etats membres de l’Union Européenne, au Royaume-Uni ainsi qu’en Suisse.
+            <li>France, Principautés de Monaco et d?Andorre.</li>
+            <li>Dans les Etats membres de l?Union Européenne, au Royaume-Uni ainsi qu?en Suisse.
               (Plafond spécifique)</li>
           </ul>
         </div>
 
         <div class="bloc-bordure-bleu mt-medium">
           <div class="section-titre">
-            <img src="lettre_conseil/obligations.png" alt="">
+            <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/obligations.png" alt="">
             <div class="titre">Quelles sont mes obligations ?
             </div>
           </div>
@@ -510,49 +521,49 @@
           <ul class="carre-black" style="margin-block-start: 5px; padding-left: 60px;">
             <li>
               <b>A la souscription du contrat</b>
-              <p>Répondre exactement aux questions posées par l’assureur, notamment dans le formulaire de déclaration du risque lui
-                permettant d’apprécier les risques qu’il prend en charge,<br>
-                Fournir tous documents justificatifs demandés par l’assureur,<br>
+              <p>Répondre exactement aux questions posées par l?assureur, notamment dans le formulaire de déclaration du risque lui
+                permettant d?apprécier les risques qu?il prend en charge,<br>
+                Fournir tous documents justificatifs demandés par l?assureur,<br>
                 Régler la cotisation (ou fraction de cotisation) indiquée au contrat.</p>
             </li>
             <li>
               <b>En cours de contrat</b>
-              <p>Déclarer toutes circonstances nouvelles ayant pour conséquence d’aggraver les risques pris en charge soit d’en créer
+              <p>Déclarer toutes circonstances nouvelles ayant pour conséquence d?aggraver les risques pris en charge soit d?en créer
                 de nouveaux.</p>
             </li>
             <li>
               <b>En cas de sinistre</b>
-              <p>Déclarer tout sinistre de nature à mettre en jeu l’une des garanties dans les conditions et délais impartis et joindre tous
-                documents utiles à l’appréciation du sinistre<br>
-                Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d’autres assureurs,
-                ainsi que tout remboursement que vous pourriez recevoir au titre d’un sinistre</p>
+              <p>Déclarer tout sinistre de nature à mettre en jeu l?une des garanties dans les conditions et délais impartis et joindre tous
+                documents utiles à l?appréciation du sinistre<br>
+                Informer des garanties éventuellement souscrites pour les mêmes risques en tout ou partie auprès d?autres assureurs,
+                ainsi que tout remboursement que vous pourriez recevoir au titre d?un sinistre</p>
             </li>
           </ul>
         </div>
 
         <div class="bloc-bordure-bleu mt-medium">
           <div class="section-titre">
-            <img src="lettre_conseil/paiement.png" alt="">
+            <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/paiement.png" alt="">
             <div class="titre">Quand et comment effectuer le paiement ?
             </div>
           </div>
           
-          <p style="padding-left: 60px;">Les cotisations sont payables d’avance annuellement, à la date indiquée dans le contrat, auprès de l’assureur ou de son
-            représentant dans les dix jours à compter de l’échéance.<br>
+          <p style="padding-left: 60px;">Les cotisations sont payables d?avance annuellement, à la date indiquée dans le contrat, auprès de l?assureur ou de son
+            représentant dans les dix jours à compter de l?échéance.<br>
             Un paiement fractionné peut toutefois être accordé au choix (Semestriel, Trimestriel, Mensuel).<br>
             Les paiements peuvent être effectués par carte bancaire, chèque, ou prélèvement automatique.</p>
         </div>
 
         <div class="bloc-bordure-bleu mt-medium">
           <div class="section-titre">
-            <img src="lettre_conseil/couverture.png" alt="">
+            <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/couverture.png" alt="">
             <div class="titre">Quand commence la couverture et quand prend-elle fin ?
             </div>
           </div>
           
           <p style="padding-left: 60px;">Le contrat prend effet à la date indiquée aux Dispositions particulières.<br>
-            Il est conclu pour une durée d’un an et se renouvelle automatiquement d’année en année à sa date d’échéance principale
-            sauf résiliation par l’une des parties dans les cas et conditions fixées au contrat.</p>
+            Il est conclu pour une durée d?un an et se renouvelle automatiquement d?année en année à sa date d?échéance principale
+            sauf résiliation par l?une des parties dans les cas et conditions fixées au contrat.</p>
         </div>
 
         <div class="bloc-bordure-bleu mt-medium">
@@ -562,8 +573,8 @@
             </div>
           </div>
           
-          <p style="padding-left: 60px;">La résiliation doit être demandée soit par lettre recommandée soit par déclaration faite contre récépissé auprès de l’assureur
-            ou de son représentant dans les cas et conditions prévus au contrat. Elle peut aussi être demandée à l’échéance dans les
+          <p style="padding-left: 60px;">La résiliation doit être demandée soit par lettre recommandée soit par déclaration faite contre récépissé auprès de l?assureur
+            ou de son représentant dans les cas et conditions prévus au contrat. Elle peut aussi être demandée à l?échéance dans les
             conditions fixées par la Loi Châtel et sous réserve que votre contrat vous couvre en tant que personne physique en dehors
             de toutes activités professionnelles.</p>
         </div>
@@ -573,11 +584,11 @@
         <div>
           <b class="texte-petit"><i>Société Française de Protection Juridique</i></b>
           <p class="texte-petit">
-            Entreprise régie par le code des Assurances et soumise à l’Autorité de contrôle prudentiel et de résolution - 4 place de Budapest CS 92459 -75436 PARIS Cedex 09
+            Entreprise régie par le code des Assurances et soumise à l?Autorité de contrôle prudentiel et de résolution - 4 place de Budapest CS 92459 -75436 PARIS Cedex 09
             <br>
-            SA au capital de 2 216 500 € - RCS PARIS B 321 776 775
+            SA au capital de 2 216 500  - RCS PARIS B 321 776 775
             <br>
-            Siège Social : 8-10 rue d’Astorg -75008 PARIS
+            Siège Social : 8-10 rue d?Astorg -75008 PARIS
           </p>
         </div>
       </div>
@@ -591,10 +602,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -605,16 +616,16 @@
             PARTICULIERS MY PROTECT PREMIUM</div>
   
           <div class="center" style="border: 1px solid black; padding: 2px;">Ce contrat, conforme aux lois n° 2007-210 du 19 Février 2007 et n°
-            89-1014 du 31 Décembre 1989 ainsi qu’au décret n° 90-697 du 1er
+            89-1014 du 31 Décembre 1989 ainsi qu?au décret n° 90-697 du 1er
             Août 1990, est régi par le Code des Assurances.
             Il est constitué des Dispositions Générales qui suivent ainsi que des
             Dispositions Particulières associées.</div>
   
           <div class="center bold">Le numéro de votre contrat de groupement souscrit par
             MY PROTECT PREMIUM est le 505 088.</div>
-          <div>Pensez à le rappeler lors de toute demande d’information juridique ou
+          <div>Pensez à le rappeler lors de toute demande d?information juridique ou
             lorsque vous déclarez un sinistre afin de faciliter votre identification
-            et d’éviter toute perte de temps dans la gestion de votre demande.
+            et d?éviter toute perte de temps dans la gestion de votre demande.
             Pour vous aider dans la lecture et la compréhension de ce contrat, un
             lexique figure en dernière partie.</div>
           <div class="center">
@@ -627,21 +638,21 @@
           </div>
           <div class="center">
             Entreprise régie par le Code des Assurances - Société Anonyme au
-            capital de 2 216 500 € - RCS PARIS : B 321 776 775<br>
-            Siège Social : 8 – 10, rue d’Astorg – 75008 PARIS
+            capital de 2 216 500  - RCS PARIS : B 321 776 775<br>
+            Siège Social : 8 ? 10, rue d?Astorg ? 75008 PARIS
           </div>
           <div class="titre1">QUELQUES DEFINITIONS</div>
           <div>Il faut entendre par&nbsp;:</div>
-          <div><span class="bleu2 bold">« NOUS » :</span>  L’Assureur, c’est-à-dire <span class="bold">la SOCIETE FRANÇAISE DE
+          <div><span class="bleu2 bold">« NOUS » :</span>  L?Assureur, c?est-à-dire <span class="bold">la SOCIETE FRANÇAISE DE
             PROTECTION JURIDIQUE, ci-après dénommée GROUPAMA
             PROTECTION JURIDIQUE.</span> 
           </div>
-          <div><span class="bleu2 bold">« VOUS » :</span>: L’Assuré, adhérent au contrat, c'est-à-dire&nbsp;:</div>
+          <div><span class="bleu2 bold">« VOUS » :</span>: L?Assuré, adhérent au contrat, c'est-à-dire&nbsp;:</div>
           <ul>
             <li><b>Vous-même</b> dont les coordonnées figurent aux Dispositions
               Particulières,</li>
               <li><span class="bold">Votre conjoint ou assimilé</span>(personne vivant maritalement
-                avec vous par exemple dans le cadre d’un PACS) ainsi que <span class="bold">vos
+                avec vous par exemple dans le cadre d?un PACS) ainsi que <span class="bold">vos
                   enfants</span> à charge fiscalement ou vivant habituellement à votre
                 foyer.
               </li>
@@ -649,30 +660,30 @@
           <div><span class="bleu2 bold">« TIERS »</span>Toute personne, physique ou morale, étrangère au
             présent contrat.</div>
           <div><span class="bleu2 bold">« SINISTRE »</span> : Refus opposé à une réclamation dont vous êtes
-            l’auteur ou le destinataire – point de départ du délai dans lequel vous
-            devez nous le déclarer, conformément à l’article 6 (« Quelles sont les
+            l?auteur ou le destinataire ? point de départ du délai dans lequel vous
+            devez nous le déclarer, conformément à l?article 6 (« Quelles sont les
             formalités à accomplir pour la mise en jeu de la garantie ? »).</div>
           <div><span class="bleu2 bold">« LITIGE »</span> : Désaccord ou contestation d'un droit, vous opposant, y
             compris sur le plan amiable, à un tiers.</div>
-          <div><span class="bleu2 bold">« DELAI DE CARENCE »</span> : Il s’agit du délai, à compter de la date de
-            prise d’effet de votre contrat, à l’expiration duquel nous prenons en
+          <div><span class="bleu2 bold">« DELAI DE CARENCE »</span> : Il s?agit du délai, à compter de la date de
+            prise d?effet de votre contrat, à l?expiration duquel nous prenons en
             charge les sinistres au titre des garanties suivantes : « Travail »,
-            « Divorce toutes causes ou dissolution d’un PACS », « Succession »,
+            « Divorce toutes causes ou dissolution d?un PACS », « Succession »,
             « Incapacité », « Droit de visite des grands-parents », « Dons et
             legs », « Filiation / Adoption », « Changement de régime
             matrimonial » et « Pension et obligation alimentaire ».</div>
           <div><span class="bleu2 bold">« PERIODE DE GARANTIE »</span> : Il s'agit de la période de validité du
               présent contrat comprise entre sa date d'effet et celle de sa résiliation.</div>
-          <div class="titre1">ARTICLE 1 – QUELLES SONT LES PRESTATIONS DONT VOUS
+          <div class="titre1">ARTICLE 1 ? QUELLES SONT LES PRESTATIONS DONT VOUS
             BENEFICIEZ ?</div>
-          <div class="titre2">1.1 – PRESTATIONS EN PREVENTION D’UN LITIGE</div>
-          <div class="bold">1.1.1 - UN SERVICE D’INFORMATIONS JURIDIQUES PAR
+          <div class="titre2">1.1 ? PRESTATIONS EN PREVENTION D?UN LITIGE</div>
+          <div class="bold">1.1.1 - UN SERVICE D?INFORMATIONS JURIDIQUES PAR
             TELEPHONE
           </div>
           <div>En cas de difficulté juridique ou en prévention de tout litige, survenant
             dans le cadre de votre vie privée ou de votre vie professionnelle
             salariée, une équipe de juristes spécialisés répond à toute demande
-            d’ordre juridique par téléphone en vous délivrant des <span class="bold"> informations
+            d?ordre juridique par téléphone en vous délivrant des <span class="bold"> informations
               pratiques et documentaires sur les différents domaines du
               droit français applicables à votre interrogation.</span>
           </div>
@@ -683,20 +694,20 @@
             de télécommunication).
           </div>
 
-          <div class="bold">1.1.2 – UN SERVICE D’INFORMATION JURIDIQUE DIGITAL
+          <div class="bold">1.1.2 ? UN SERVICE D?INFORMATION JURIDIQUE DIGITAL
             « DIGIDROIT »</div>
           <div>
             Pour toute recherche, notamment en cas de difficultés juridiques ou
-            en prévention d’un litige, nous mettons à votre disposition une base
+            en prévention d?un litige, nous mettons à votre disposition une base
             documentaire, dans le domaine de la vie privée, accessible en ligne,
             comprenant des contenus juridiques, articles, lettres types, textes de
-            lois, jurisprudence… régulièrement mis à jour, ainsi qu’une newsletter
+            lois, jurisprudence? régulièrement mis à jour, ainsi qu?une newsletter
             vous permettant de sélectionner les domaines du droit pour lesquels
             vous souhaitez une information régulière. 
           </div>
           <div>
             Ce service est accessible de manière illimitée, en vous connectant sur votre espace client&nbsp;: <a href="https://espaceclient.protectionjuridique.fr">https://espaceclient.protectionjuridique.fr</a>
-            L’accès est strictement réservé aux bénéficiaires du contrat de protection juridique.
+            L?accès est strictement réservé aux bénéficiaires du contrat de protection juridique.
           </div>
           <div class="bold">1.1.3 - LA PRESTATION « SIGNEZ EN TOUTE CONFIANCE »</div>
           <div class="bold underline">Assistance « contrats »</div>
@@ -706,21 +717,21 @@
             être soumis à un avocat. Il vous confirmera par écrit sa validité
             juridique ou vous proposera son adaptation.<br>
             Nous prenons en charge les frais liés à cette prestation <span class="bold">à hauteur de
-            200 € TTC.</span> <br>
-            Cette prestation s’applique aux contrats rédigés en langue française
+            200  TTC.</span> <br>
+            Cette prestation s?applique aux contrats rédigés en langue française
             et relevant du droit français. Elle porte exclusivement sur les baux
-            d’habitation, les locations saisonnières et les prestations de loisirs.
+            d?habitation, les locations saisonnières et les prestations de loisirs.
           </div>
           <div class="bold underline">
             Assistance « formulaires et déclarations »
           </div>
           <div>Lorsque vous devez remplir un formulaire ou une déclaration pour
-            l’administration française, nous vous aidons si besoin dans sa lecture
+            l?administration française, nous vous aidons si besoin dans sa lecture
             ou sa compréhension et vous assistons pour vous permettre de
             compléter ce document. Sont notamment prévues vos déclarations
-            d’impôt sur le revenu et autres déclarations fiscales personnelles (sauf
-            déclarations d’IFI, de TVA ou professionnelles), vos demandes d’aides
-            sociales, vos formulaires des CAF….
+            d?impôt sur le revenu et autres déclarations fiscales personnelles (sauf
+            déclarations d?IFI, de TVA ou professionnelles), vos demandes d?aides
+            sociales, vos formulaires des CAF?.
           </div>
           <div>Cette prestation se déroule uniquement par téléphone et ne prévoit
             aucune prise en charge financière.
@@ -733,13 +744,13 @@
             de télécommunication)
           </div>
           <div class="titre2">
-            1.2 – PRESTATIONS EN CAS DE LITIGE
+            1.2 ? PRESTATIONS EN CAS DE LITIGE
           </div>
           <div class="bleu1 bold">
             UN SERVICE DE PROTECTION JURIDIQUE
           </div>
           <div>
-            Lorsqu'un litige dont la nature est définie à l’article 2, vous oppose à
+            Lorsqu'un litige dont la nature est définie à l?article 2, vous oppose à
             un tiers, nous vous apportons nos conseils et notre assistance selon
             les modalités suivantes :
           </div>
@@ -748,17 +759,17 @@
               d'un préjudice que vous avez subi et que vous justifiez d'un
               intérêt fondé en droit, ou lorsque vous êtes juridiquement
               fondé à résister à la demande d'un tiers.</span> Ainsi, nous
-            n’intervenons que dans la mesure où votre affaire est défendable au
+            n?intervenons que dans la mesure où votre affaire est défendable au
             regard des règles de droit en vigueur.
           </div>
           <div>
             A ce titre, nous intervenons à réception des pièces de votre dossier
             communiquées dans le cadre de votre déclaration de sinistre,
-            conformément à <span class="bold">l’article 6</span> (« Quelles sont les formalités à accomplir
+            conformément à <span class="bold">l?article 6</span> (« Quelles sont les formalités à accomplir
             pour la mise en jeu de la garantie ?»).
           </div>
           <div>Nos prestations peuvent prendre différentes formes :</div>
-          <div class="bleu1 bold">⬜ Sur un plan amiable</div>
+          <div class="bleu1 bold">? Sur un plan amiable</div>
           <div>
             <ul>
               <li>
@@ -777,46 +788,46 @@
                   négociée et conforme à vos intérêts.
                 </div>
                 <div>
-                  Lorsque l’appui d’un intervenant extérieur (expert / avocat) est
+                  Lorsque l?appui d?un intervenant extérieur (expert / avocat) est
                   nécessaire (notamment lorsque votre adversaire est représenté par
                   un avocat), nous prenons en charge les frais et honoraires de ce
-                  dernier dans les limites figurant à <span class="bold">l’article 5.2</span> (« Frais garantis dans
+                  dernier dans les limites figurant à <span class="bold">l?article 5.2</span> (« Frais garantis dans
                   le cadre de la gestion amiable »).
                 </div>
                 <div>
-                  Lorsque nous sommes amenés à intervenir à l’amiable, <span class="bold">vous nous
+                  Lorsque nous sommes amenés à intervenir à l?amiable, <span class="bold">vous nous
                     donnez mandat pour procéder</span> à toute démarche ou opération
                   tendant à mettre fin amiablement au litige déclaré et garanti.
                 </div>
               </li>
             </ul>
           </div>
-          <div class="bleu1 bold">⬜ Sur un plan judiciaire</div>
+          <div class="bleu1 bold">? Sur un plan judiciaire</div>
           <div>
             <ul>
               <li>
                 <div class="bold italic">La Prise en charge des frais de procédure :</div>
                 <div>
-                  Lorsque le litige n’a pu se résoudre à l’amiable et est porté devant
+                  Lorsque le litige n?a pu se résoudre à l?amiable et est porté devant
                   une juridiction ou une commission, nous prenons en charge les frais
-                  et honoraires d’avocat et de procédure dans les limites indiquées à
-                  <span class="bold">l’article 5.2</span> (« frais garantis dans le cadre de la gestion judiciaire »).
+                  et honoraires d?avocat et de procédure dans les limites indiquées à
+                  <span class="bold">l?article 5.2</span> (« frais garantis dans le cadre de la gestion judiciaire »).
                 </div>
               </li>
             </ul>
           </div>
-          <div class="titre1">ARTICLE 2 – POUR QUELLES NATURES DE LITIGES ÊTES VOUS
+          <div class="titre1">ARTICLE 2 ? POUR QUELLES NATURES DE LITIGES ÊTES VOUS
             GARANTI ?
           </div>
           <div class="titre2">
-            2.1 - DOMAINES D’INTERVENTION
+            2.1 - DOMAINES D?INTERVENTION
           </div>
           <div>
             Lorsqu'un litige vous oppose, sur un plan amiable ou judiciaire, à un
             tiers <span class="bold">à propos de votre vie privée ou de votre vie
               professionnelle lorsque vous êtes salarié</span>, nous vous assistons et
-            intervenons, lorsque vous êtes fondé en droit, dans les limites ciaprès indiquées – sous réserve des exclusions prévues ci-dessous à
-            l’article 2.2&nbsp;:
+            intervenons, lorsque vous êtes fondé en droit, dans les limites ciaprès indiquées ? sous réserve des exclusions prévues ci-dessous à
+            l?article 2.2&nbsp;:
           </div>
           <div class="titre3 center">
             A - SOCLE DE BASE
@@ -841,10 +852,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -853,11 +864,11 @@
         <div class="content mt-medium mb-medium">
           <div>
             activité professionnelle salariée et portant sur la conclusion,
-            l’exécution ou la rupture de votre contrat de travail.
+            l?exécution ou la rupture de votre contrat de travail.
           </div>
           <div class="bold">
             La garantie vous est acquise si le litige est survenu au moins
-            6 mois après la date de prise d’effet de votre contrat.
+            6 mois après la date de prise d?effet de votre contrat.
           </div>
           <div class="bleu2 bold">
             Garantie Protection Sociale
@@ -865,12 +876,12 @@
           <div>
             Nous intervenons pour les litiges que vous rencontrez et vous
             opposant :
-             à la S
+            ? à la S
           </div>
           <ul>
             <li>à la Sécurité Sociale, concernant les assurances sociales
               (maladie, maternité, invalidité, décès), les prestations familiales,
-              les accidents du travail et maladies professionnelles, l’assurance
+              les accidents du travail et maladies professionnelles, l?assurance
               vieillesse (retraite, réversion),
             </li>
             <li>
@@ -890,9 +901,9 @@
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez en votre qualité
-            d’employeur dans le cadre de votre vie privée et concernant la
-            conclusion, l’exécution ou la rupture d’un contrat de travail.<br>
-            L’emploi doit être régulièrement déclaré auprès des organismes
+            d?employeur dans le cadre de votre vie privée et concernant la
+            conclusion, l?exécution ou la rupture d?un contrat de travail.<br>
+            L?emploi doit être régulièrement déclaré auprès des organismes
             sociaux
           </div>
 
@@ -901,8 +912,8 @@
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez en qualité de
-            consommateur et concernant l’achat, la vente, la détention, la
-            location de biens mobiliers ainsi que la fourniture d’une prestation de
+            consommateur et concernant l?achat, la vente, la détention, la
+            location de biens mobiliers ainsi que la fourniture d?une prestation de
             service.
           </div>
 
@@ -919,8 +930,8 @@
             Garantie Sports, Loisirs, Voyages
           </div>
           <div>
-            Nous intervenons pour les litiges que vous rencontrez à l’occasion de
-            la pratique d’un sport (en amateur), d’un loisir ou d’un voyage.
+            Nous intervenons pour les litiges que vous rencontrez à l?occasion de
+            la pratique d?un sport (en amateur), d?un loisir ou d?un voyage.
           </div>
   
           <div class="underline bold bleu2">
@@ -940,12 +951,12 @@
             infraction au Code de la Route.
           </div>
           <div>
-            L’infraction doit avoir été commise pendant la période de garantie
+            L?infraction doit avoir été commise pendant la période de garantie
           </div>
           <div class="bold">
-            ATTENTION : cette garantie n’est pas accordée en cas de
+            ATTENTION : cette garantie n?est pas accordée en cas de
             conduite sans assurance, sans permis de conduire ou de
-            conduite en état d’ivresse ou sous l’empire d’un état
+            conduite en état d?ivresse ou sous l?empire d?un état
             alcoolique, de stupéfiants ou de drogues non prescrits
             médicalement et en cas délit de fuite.
           </div>
@@ -955,26 +966,26 @@
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez en votre qualité
-            d’occupant de vos résidences principale et secondaire, que vous en
+            d?occupant de vos résidences principale et secondaire, que vous en
             soyez locataire ou propriétaire. De même nous intervenons pour les
-            litiges liés à l’acquisition ou la cession de ces biens immobiliers.<br>
+            litiges liés à l?acquisition ou la cession de ces biens immobiliers.<br>
             En cas de résiliation du bail de vos résidences principale ou secondaire, la
             garantie est acquise pendant SIX MOIS à compter de la date de la
-            résiliation pour les litiges vous opposant à l’ancien propriétaire.<br>
+            résiliation pour les litiges vous opposant à l?ancien propriétaire.<br>
             De même, en cas de vente de vos résidences principale ou secondaire, la
             garantie est acquise pendant SIX MOIS à compter de la vente pour les
-            litiges vous opposant à l’acquéreur.<br>
+            litiges vous opposant à l?acquéreur.<br>
             Au titre de cette garantie nous intervenons également pour les litiges
-            vous opposant au propriétaire d’une résidence que vous louez dans le
-            cadre d’une location saisonnière.
+            vous opposant au propriétaire d?une résidence que vous louez dans le
+            cadre d?une location saisonnière.
           </div>
           <div class="underline bold bleu2">
             Garantie Travaux
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez lors de travaux
-            d’entretien ou d’embellissement dont la valeur ne dépasse pas 50
-            000 € TTC au total, réalisés pour votre compte dans vos résidences
+            d?entretien ou d?embellissement dont la valeur ne dépasse pas 50
+            000  TTC au total, réalisés pour votre compte dans vos résidences
             principale ou secondaire et vous opposant au prestataire de service
             réalisant les travaux à titre onéreux.
           </div>
@@ -991,7 +1002,7 @@
             Garantie Aide aux Victimes
           </div>
           <div>
-            Nous intervenons lorsque vous êtes victime d’une infraction pénale.
+            Nous intervenons lorsque vous êtes victime d?une infraction pénale.
           </div>
 
           <div class="underline bold bleu2">
@@ -999,22 +1010,22 @@
           </div>
           <div>
             Nous intervenons lorsque vous êtes poursuivi pénalement (dépôt de
-            plainte, citation directe, mise en examen) en qualité d’auteur, de
-            coauteur ou de complice d’une contravention ou d’un délit non
+            plainte, citation directe, mise en examen) en qualité d?auteur, de
+            coauteur ou de complice d?une contravention ou d?un délit non
             intentionnel.
           </div>
 
           <div class="underline bold bleu2">
-            Garantie Usurpation d’Identité
+            Garantie Usurpation d?Identité
           </div>
           <div>
-            Lorsqu’un litige consécutif à l’usurpation de votre identité vous
+            Lorsqu?un litige consécutif à l?usurpation de votre identité vous
             oppose, sur un plan amiable ou judiciaire à un tiers, dans le cadre de
             votre vie privée et que vous avez déposé plainte, nous intervenons
             pour obtenir la réparation de votre préjudice. Nous intervenons
             également pour la défense de vos intérêts dans le cadre des actions
-            (recours, injonctions, assignations,…) engagées à votre encontre à
-            l’occasion de l’usurpation avérée de votre identité.
+            (recours, injonctions, assignations,?) engagées à votre encontre à
+            l?occasion de l?usurpation avérée de votre identité.
           </div>
   
           <div class="underline bold bleu2">
@@ -1023,10 +1034,10 @@
           <div>
             La garantie « Deuil Numérique » vous permet de contrôler le devenir
             de votre identité numérique et de vos données personnelles après le
-            décès d’un bénéficiaire du contrat.
+            décès d?un bénéficiaire du contrat.
             Nous assisterons votre famille ou le légataire désigné, en missionnant
-            notre partenaire, société spécialisée dans la protection de l’identité
-            numérique sur internet, afin d’entreprendre l’intégralité des
+            notre partenaire, société spécialisée dans la protection de l?identité
+            numérique sur internet, afin d?entreprendre l?intégralité des
             démarches nécessaires pour mettre à jour les informations
             accessibles sur internet vous concernant et de réaliser les prestations
             suivantes :
@@ -1036,8 +1047,8 @@
               <li>Assurer la clôture de vos comptes de messagerie dans la limite de
               trois comptes maximum dont les accès auront été fournis par vos
               proches,</li>
-              <li>Permettre d’assurer une veille mensuelle e-réputation sur votre nom
-              par le biais de l’outil de veille pendant 12 mois, en lien avec votre
+              <li>Permettre d?assurer une veille mensuelle e-réputation sur votre nom
+              par le biais de l?outil de veille pendant 12 mois, en lien avec votre
               légataire désigné.</li>
             </ul>
           </div>
@@ -1045,10 +1056,10 @@
           <div class="underline bold bleu2">
             Garantie Atteinte à votre réputation sur Internet (ERéputation)
           </div>
-          <div>Nous intervenons lorsqu’un litige consécutif à l’atteinte à votre image
+          <div>Nous intervenons lorsqu?un litige consécutif à l?atteinte à votre image
             sur internet (E-réputation ou réputation numérique) vous oppose sur
             un plan amiable ou judiciaire, à un tiers dans le cadre de votre vie
-            privée et que vous avez déposé plainte contre l’auteur de l’atteinte à
+            privée et que vous avez déposé plainte contre l?auteur de l?atteinte à
             votre E-réputation.<br>
             Nous vous assistons et intervenons pour obtenir la suppression du
             contenu et la réparation de votre préjudice.
@@ -1059,42 +1070,42 @@
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez et vous
-            opposant à l’administration, un service public, une collectivité
+            opposant à l?administration, un service public, une collectivité
             territoriale, une mairie.<br>
-            Les litiges avec l’administration fiscale ne sont pas pris en charge au
+            Les litiges avec l?administration fiscale ne sont pas pris en charge au
             titre de cette garantie.
           </div>
 
           <div class="underline bold bleu2">
-            Garantie Divorce toutes causes ou dissolution d’un PACS
+            Garantie Divorce toutes causes ou dissolution d?un PACS
           </div>
 
           <ul>
             <li>
-              Pour l’ensemble de la procédure de divorce dans les cas de
-              divorce visés à l’article 229 du Code Civil,
+              Pour l?ensemble de la procédure de divorce dans les cas de
+              divorce visés à l?article 229 du Code Civil,
             </li>
             <li>
-              Ou pour les litiges consécutifs à la dissolution d’un Pacte Civil de
+              Ou pour les litiges consécutifs à la dissolution d?un Pacte Civil de
               Solidarité (PACS), opposant les cosignataires.
             </li>
           </ul>
 
           <div class="bold">
             Cette prise en charge est faite sous réserve que la demande en
-            divorce ou dissolution du PACS soit postérieure d’au moins 24
+            divorce ou dissolution du PACS soit postérieure d?au moins 24
             mois à la date de souscription du contrat.
           </div>
 
           <div>
-            Les honoraires de l’avocat de chacun des époux ou cosignataire du
-            PACS sont pris en charge à hauteur maximale de <span class="bold">1 000 € TTC</span>
+            Les honoraires de l?avocat de chacun des époux ou cosignataire du
+            PACS sont pris en charge à hauteur maximale de <span class="bold">1 000  TTC</span>
             chacun.
           </div>
           <div>
             Si les époux ou cosignataires du PACS font appel au même avocat, la
-            prise en charge des honoraires de cet avocat s’effectue à hauteur
-            maximale de <span class="bold">2 000 € TTC</span>.
+            prise en charge des honoraires de cet avocat s?effectue à hauteur
+            maximale de <span class="bold">2 000  TTC</span>.
           </div>
           <div class="bold">
             Attention : Pour cette garantie, les plafonds et barèmes
@@ -1120,8 +1131,8 @@
           </ul>
 
           <div>
-            L’ouverture de la succession doit être intervenue <span class="bold">au moins 24 mois
-              après la date de prise d’effet de votre contrat,
+            L?ouverture de la succession doit être intervenue <span class="bold">au moins 24 mois
+              après la date de prise d?effet de votre contrat,
             </span> sauf décès accidentel.
           </div>
 
@@ -1130,11 +1141,11 @@
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez en votre qualité
-            de bénéficiaire d’un don ou d’un legs à titre universel ou à titre
-            particulier, dès lors que celui-ci fait l’objet d’une contestation par un
+            de bénéficiaire d?un don ou d?un legs à titre universel ou à titre
+            particulier, dès lors que celui-ci fait l?objet d?une contestation par un
             ayant droit du donateur ou du légateur.<br>
             <span class="bold">La garantie vous est acquise si le litige est survenu au moins
-              24 mois après la date de prise d’effet de votre contrat.</span>
+              24 mois après la date de prise d?effet de votre contrat.</span>
           </div>
           <div class="underline bold bleu2">
             Garantie Filiation / Adoption
@@ -1142,21 +1153,21 @@
           <div>
             Nous intervenons pour les litiges que vous rencontrez en qualité de
             parent naturel, ou adoptant et portant sur une action relative à la
-            filiation ou l’adoption et vous opposant à un tiers au contrat.<br>
+            filiation ou l?adoption et vous opposant à un tiers au contrat.<br>
             <span class="bold">La garantie vous est acquise si le litige est survenu au moins
-              24 mois après la date de prise d’effet de votre contrat.</span>
+              24 mois après la date de prise d?effet de votre contrat.</span>
           </div>
           <div class="underline bold bleu2">
             Garantie Changement de Régime Matrimonial
           </div>
           <div>
             Nous intervenons pour les litiges que vous rencontrez avec un tiers à
-            l’occasion du changement de votre régime matrimonial des lors qu’il
-            a été régulièrement notifie dans les conditions prévues à l’article 1397
+            l?occasion du changement de votre régime matrimonial des lors qu?il
+            a été régulièrement notifie dans les conditions prévues à l?article 1397
             du Code Civil.<br>
             <span class="bold">
               La garantie est acquise si le litige est survenu au moins 12
-              mois après la date de la prise d’effet du contrat.
+              mois après la date de la prise d?effet du contrat.
             </span>
           </div>
         </div>
@@ -1173,10 +1184,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -1189,8 +1200,8 @@
 
           <div>
             Nous intervenons pour les litiges que vous rencontrez lorsque vous
-            êtes recherché en demande de paiement ou de révision d’une pension
-            ou d’une obligation alimentaire par un tiers.
+            êtes recherché en demande de paiement ou de révision d?une pension
+            ou d?une obligation alimentaire par un tiers.
           </div>
 
           <div class="bold">
@@ -1204,7 +1215,7 @@
               Pour cette garantie, les plafonds et barèmes figurant aux
               paragraphes 4.1 et 5.2 ne sont pas applicables.
             </span> Notre
-            participation est limitée à <span class="bold">1 000 €</span> quel que soit le stade de juridiction
+            participation est limitée à <span class="bold">1 000 </span> quel que soit le stade de juridiction
             atteint.
           </div>
 
@@ -1212,16 +1223,16 @@
             Garantie Redressement fiscal
           </div>
           <div>
-            Nous intervenons en cas de contestation d’un avis de redressement
-            fiscal qui vous a été notifié par l’administration fiscale française et
+            Nous intervenons en cas de contestation d?un avis de redressement
+            fiscal qui vous a été notifié par l?administration fiscale française et
             concernant :
           </div>
 
           <ul>
-            <li>L’impôt sur le revenu des personnes physiques (traitements et
+            <li>L?impôt sur le revenu des personnes physiques (traitements et
               salaires, revenus fonciers, revenus sur les valeurs mobilières,
               rentes).</li>
-              <li>Les taxes foncières et d’habitation.</li>
+              <li>Les taxes foncières et d?habitation.</li>
           </ul>
 
           <div>
@@ -1230,7 +1241,7 @@
           <div class="bold">
             ATTENTION : les obligations fiscales (et comptables) vous
             incombant doivent avoir été remplies régulièrement et de bonne
-            foi. Les recours à l’encontre de redressements consécutifs à une
+            foi. Les recours à l?encontre de redressements consécutifs à une
             fraude fiscale ne sont pas garantis.
           </div>
 
@@ -1243,30 +1254,30 @@
               Sont exclus les litiges :
             </div>
             <ul>
-              <li>Résultant de faits antérieurs à la prise d’effet de la garantie, sauf si vous pouvez établir que vous étiez dans l’impossibilité d’en avoir connaissance avant cette date.</li>
+              <li>Résultant de faits antérieurs à la prise d?effet de la garantie, sauf si vous pouvez établir que vous étiez dans l?impossibilité d?en avoir connaissance avant cette date.</li>
               <li>Découlant d'une faute intentionnelle de votre part.</li>
               <li>Se rapportant au Code de la propriété intellectuelle (notamment la protection des marques, brevets, droits d'auteurs, dessins et modèles).</li>
-              <li>Liés à des travaux immobiliers soumis à l’obligation d’assurance Dommage-Ouvrage dès lors que vous n’avez pas souscrit cette assurance.</li>
-              <li>Liés à des travaux immobiliers dans votre résidence principale ou secondaire dont le montant global est supérieur à 50 000 € TTC.</li>
+              <li>Liés à des travaux immobiliers soumis à l?obligation d?assurance Dommage-Ouvrage dès lors que vous n?avez pas souscrit cette assurance.</li>
+              <li>Liés à des travaux immobiliers dans votre résidence principale ou secondaire dont le montant global est supérieur à 50 000  TTC.</li>
               <li>Liés à des travaux immobiliers ou contrats y afférents, lorsque ces travaux sont soumis, soit à la délivrance d'un permis de construire, ou d'un permis de démolir, soit au régime de la déclaration préalable, ou encore lorsqu'ils sont soumis à une assurance obligatoire.</li>
-              <li>Liés au dépôt ou à la contestation par vous d’un permis de construire ou d’un permis de démolir.</li>
-              <li>En matière d’urbanisme ou d’expropriation.</li>
-              <li>Portant sur le patrimoine immobilier classé monument historique ou inscrit à l’inventaire des monuments historiques.</li>
-              <li>Fondés sur le non-paiement de sommes dues par vous, dont le montant ou l'exigibilité ne sont pas sérieusement contestables et toute intervention consécutive à votre état d'insolvabilité ou de surendettement ou à celui d’un tiers (notamment le redressement et la liquidation judiciaire).</li>
-              <li>En matière fiscale et douanière, à l’exception des litiges évoqués au titre de la Garantie « Redressement Fiscal »</li>
+              <li>Liés au dépôt ou à la contestation par vous d?un permis de construire ou d?un permis de démolir.</li>
+              <li>En matière d?urbanisme ou d?expropriation.</li>
+              <li>Portant sur le patrimoine immobilier classé monument historique ou inscrit à l?inventaire des monuments historiques.</li>
+              <li>Fondés sur le non-paiement de sommes dues par vous, dont le montant ou l'exigibilité ne sont pas sérieusement contestables et toute intervention consécutive à votre état d'insolvabilité ou de surendettement ou à celui d?un tiers (notamment le redressement et la liquidation judiciaire).</li>
+              <li>En matière fiscale et douanière, à l?exception des litiges évoqués au titre de la Garantie « Redressement Fiscal »</li>
               <li>Relatifs à des biens immobiliers (terrains, immeubles) dont vous êtes propriétaire et que vous donnez en location.</li>
               <li>Le recouvrement de créances</li>
-              <li>Survenant entre co-indivisaires, associés d’une SCI familiale, nu propriétaire et usufruitier.</li>
+              <li>Survenant entre co-indivisaires, associés d?une SCI familiale, nu propriétaire et usufruitier.</li>
               <li>Relevant d'une garantie "Protection Juridique Recours" ou "Défense Pénale et Recours Suite à Accident (DPRSA)" incluse dans un autre contrat d'assurance.</li>
-              <li>Résultant de votre participation à l'administration d'une société, d'un groupement, d'une association ainsi que les litiges liés à l’application de règles statutaires vous liant à vos associés ou actionnaires.</li>
+              <li>Résultant de votre participation à l'administration d'une société, d'un groupement, d'une association ainsi que les litiges liés à l?application de règles statutaires vous liant à vos associés ou actionnaires.</li>
               <li>Liés à la détention, l'achat ou la vente de parts sociales et/ou de valeurs mobilières.</li>
-              <li>Survenus au cours d’épreuves sportives, courses, compétitions ou leurs essais, soumis à l’autorisation des pouvoirs publics.</li>
-              <li>Les actions ou réclamations dirigées contre vous en raison de dommages mettant en jeu votre responsabilité civile lorsqu’elle est garantie par un contrat d’assurance ou lorsqu’elle aurait dû l’être en exécution d’une obligation légale d’assurance.</li>
-              <li>Relevant de la Cour d’assises à l’exception des cas où vous avez la qualité de partie civile.</li>
-              <li>Portant sur l’entrée et le séjour sur le territoire français régis par application du Code de l’entrée et du séjour des étrangers et du droit d’asile (CESEDA).</li>
+              <li>Survenus au cours d?épreuves sportives, courses, compétitions ou leurs essais, soumis à l?autorisation des pouvoirs publics.</li>
+              <li>Les actions ou réclamations dirigées contre vous en raison de dommages mettant en jeu votre responsabilité civile lorsqu?elle est garantie par un contrat d?assurance ou lorsqu?elle aurait dû l?être en exécution d?une obligation légale d?assurance.</li>
+              <li>Relevant de la Cour d?assises à l?exception des cas où vous avez la qualité de partie civile.</li>
+              <li>Portant sur l?entrée et le séjour sur le territoire français régis par application du Code de l?entrée et du séjour des étrangers et du droit d?asile (CESEDA).</li>
               <li>Relatifs aux conflits collectifs du travail ainsi que ceux consécutifs à un licenciement collectif pour motif économique.</li>
-              <li>Relatifs à l’expression d’opinions politiques ou syndicales.</li>
-              <li>Lorsque le préjudice subi vous permet d’intégrer un groupe de consommateurs déjà constitué ou en cours de constitution permettant d’engager une action de groupe au sens de l’article L423-1 du Code de la Consommation.</li>
+              <li>Relatifs à l?expression d?opinions politiques ou syndicales.</li>
+              <li>Lorsque le préjudice subi vous permet d?intégrer un groupe de consommateurs déjà constitué ou en cours de constitution permettant d?engager une action de groupe au sens de l?article L423-1 du Code de la Consommation.</li>
             </ul>
           </div>
 
@@ -1276,9 +1287,9 @@
           </div>
 
           <ul class="background-gris-clair bold">
-            <li>Se rapportant à des informations préjudiciables dont la divulgation par un tiers n’a pas donné lieu à un dépôt de plainte de votre part.</li>
+            <li>Se rapportant à des informations préjudiciables dont la divulgation par un tiers n?a pas donné lieu à un dépôt de plainte de votre part.</li>
             <li>Liés à votre vie professionnelle et ne se rapportant pas à votre vie privée.</li>
-            <li>Faisant suite à une atteinte à l’E-réputation constituée à partir d’éléments d’informations diffusées par vous-même ou par une personne assurée au contrat, auprès de tiers.</li>
+            <li>Faisant suite à une atteinte à l?E-réputation constituée à partir d?éléments d?informations diffusées par vous-même ou par une personne assurée au contrat, auprès de tiers.</li>
           </ul>
 
           <div class="background-gris underline bold mt-medium">
@@ -1286,25 +1297,25 @@
           </div>
 
           <ul class="background-gris-clair bold">
-            <li>La diffusion d’informations ne comporte pas d’éléments nominatifs vous concernant,</li>
-            <li>La mise en ligne d’informations résulte d’une prestation rémunérée ou attendue,</li>
-            <li>La publication des informations par voie numérique émane de vous-même ou l’a été avec votre autorisation,</li>
+            <li>La diffusion d?informations ne comporte pas d?éléments nominatifs vous concernant,</li>
+            <li>La mise en ligne d?informations résulte d?une prestation rémunérée ou attendue,</li>
+            <li>La publication des informations par voie numérique émane de vous-même ou l?a été avec votre autorisation,</li>
             <li>Les informations ont été livrées par vous-même dans un lieu public ou en présence de public.</li>
           </ul>
 
           <div class="background-gris underline bold mt-medium">
-            Exclusions spécifiques « Garantie Usurpation de l’identité »<br>
+            Exclusions spécifiques « Garantie Usurpation de l?identité »<br>
             Sont exclus les litiges :
           </div>
 
           <ul class="background-gris-clair bold">
-            <li>Relevant de l’utilisation frauduleuse de vos moyens de paiement. Ainsi nous, n’intervenons pas en cas de débit frauduleux sur votre compte et/ou en cas d’utilisation de l’un de vos moyens de paiement chez un commerçant.</li>
-            <li>Relatifs à une usurpation d’identité commise par une personne ayant la qualité d’Assuré.</li>
-            <li>Relatifs à une usurpation d’identité commise avec la complicité d’une personne ayant la qualité d’Assuré.</li>
+            <li>Relevant de l?utilisation frauduleuse de vos moyens de paiement. Ainsi nous, n?intervenons pas en cas de débit frauduleux sur votre compte et/ou en cas d?utilisation de l?un de vos moyens de paiement chez un commerçant.</li>
+            <li>Relatifs à une usurpation d?identité commise par une personne ayant la qualité d?Assuré.</li>
+            <li>Relatifs à une usurpation d?identité commise avec la complicité d?une personne ayant la qualité d?Assuré.</li>
           </ul>
 
           <div class="titre1">
-            ARTICLE 3 – OU S’EXERCENT VOS GARANTIES ?
+            ARTICLE 3 ? OU S?EXERCENT VOS GARANTIES ?
           </div>
 
           <div>
@@ -1314,46 +1325,46 @@
           </div>
 
           <div>
-            La garantie « Redressement fiscal » s’applique aux faits et
+            La garantie « Redressement fiscal » s?applique aux faits et
             évènements survenus sur le territoire de la République Française.
           </div>
 
           <div class="titre1">
-            ARTICLE 4 – QUELS SONT LE PLAFOND DE GARANTIE ET LES
-            SEUILS D’INTERVENTION&nbsp;?
+            ARTICLE 4 ? QUELS SONT LE PLAFOND DE GARANTIE ET LES
+            SEUILS D?INTERVENTION&nbsp;?
           </div>
 
           <div class="titre2">
-            4.1 – PLAFOND DE GARANTIE (TTC)
+            4.1 ? PLAFOND DE GARANTIE (TTC)
           </div>
 
           <div>
-            Il inclut l’ensemble des frais et honoraires que nous sommes
+            Il inclut l?ensemble des frais et honoraires que nous sommes
             susceptibles de prendre en charge par sinistre.
-            Son montant est de <span class="bold">25 000 €</span> par sinistre<br>
+            Son montant est de <span class="bold">25 000 </span> par sinistre<br>
             <span class="bold">Attention</span> : Ce montant ne se reconstitue pas quelle que soit la durée
             de traitement du sinistre
           </div>
 
           <div class="titre2">
-            4.2 – SEUILS D’INTERVENTION (TTC)
+            4.2 ? SEUILS D?INTERVENTION (TTC)
           </div>
 
           <div>
             Le montant en principal des intérêts en jeu doit au moins être égal à
-            <span class="bold">230 €</span>. En deçà, nous n’intervenons pas.
-            Si ce montant se situe entre <span class="bold">230 €</span> et <span class="bold">500 €</span>, nous intervenons
-            uniquement sur le plan amiable. Si ce montant dépasse 500 €, nous
+            <span class="bold">230 </span>. En deçà, nous n?intervenons pas.
+            Si ce montant se situe entre <span class="bold">230 </span> et <span class="bold">500 </span>, nous intervenons
+            uniquement sur le plan amiable. Si ce montant dépasse 500 , nous
             pouvons intervenir également sur le plan judiciaire.<br>
             <span class="bold">
-              Toutefois, aucun seuil d'intervention n’est retenu en matière
+              Toutefois, aucun seuil d'intervention n?est retenu en matière
               de consultation juridique ou lorsque vous êtes cité à
               comparaître devant une juridiction répressive.
             </span>
           </div>
 
           <div class="titre1">
-            ARTICLE 5 – QUELS SONT LES MODALITES DE PAIEMENT ET
+            ARTICLE 5 ? QUELS SONT LES MODALITES DE PAIEMENT ET
             LES FRAIS GARANTIS PAR SINISTRE (TTC) ?
           </div>
 
@@ -1361,8 +1372,8 @@
             Nous prenons en charge, dans les conditions indiquées, les frais et
             honoraires d'avocat, et Commissaire de justice ainsi que les frais de
             procédure, sous réserve qu'ils soient exposés <span class="bold">avec notre accord
-              préalable pour la défense de vos intérêts ou qu’ils soient justifiés
-              par l’urgence.</span>
+              préalable pour la défense de vos intérêts ou qu?ils soient justifiés
+              par l?urgence.</span>
           </div>
         </div>
 
@@ -1378,10 +1389,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -1389,7 +1400,7 @@
 
         <div class="content mt-medium mb-medium">
           <div class="titre2">
-            5.1 – MODALITES DE PAIEMENT
+            5.1 ? MODALITES DE PAIEMENT
           </div>
           <div>
             Les modalités de paiement diffèrent selon la juridiction territorialement compétente :
@@ -1406,27 +1417,27 @@
               <div class="bold">Autres pays garantis :</div>
               <div>
                 Il vous appartient et sous réserve du respect des conditions
-                prévues à <span class="bold">l’article 6</span> (« Quelles sont les formalités à accomplir
+                prévues à <span class="bold">l?article 6</span> (« Quelles sont les formalités à accomplir
                 pour la mise en jeu de la garantie ?»), de saisir votre avocat. Par
-                dérogation à l’<span class="bold">article 4.1</span> (« Plafond de garantie »), nous vous
+                dérogation à l?<span class="bold">article 4.1</span> (« Plafond de garantie »), nous vous
                 rembourserons les frais et honoraires garantis , dans un délai
                 maximum de DIX JOURS OUVRES, à compter de la réception par
                 nous des justificatifs de paiement, au fur et à mesure des
                 provisions acquittées dans la limite maximale et forfaitaire de
                 <span class="bold">
-                  3&nbsp;500 € TTC sans application des montants définis cidessous
+                  3&nbsp;500  TTC sans application des montants définis cidessous
                 </span>.
               </div>
             </li>
           </ul>
 
           <div class="titre2">
-            5.2 – FRAIS GARANTIS PAR SINISTRE (TTC)
+            5.2 ? FRAIS GARANTIS PAR SINISTRE (TTC)
           </div>
 
           <div>
             Ces différents montants sont cumulables, sous réserve de ne pas
-            dépasser le plafond prévu à l’<span class="bold">article 4.1</span>. Ils s'entendent toutes taxes
+            dépasser le plafond prévu à l?<span class="bold">article 4.1</span>. Ils s'entendent toutes taxes
             comprises.
           </div>
 
@@ -1437,20 +1448,20 @@
           <div>
             Dans le cadre de la défense amiable de votre dossier, nous pouvons
             être amenés à faire appel à des intervenants extérieurs (ex : expert
-            ou avocat – notamment lorsque votre adversaire est lui-même
+            ou avocat ? notamment lorsque votre adversaire est lui-même
             représenté par un avocat). <br>
             Ce sont les honoraires et frais de ces intervenants qui sont pris en
             charge au titre de ce budget amiable.<br>
             Le plafond amiable pour les diligences effectuées par l'<span class="underline">ensemble des
-              intervenants</span> (expert ou avocat) est fixé à : <span class="bold">1&nbsp;600 €</span>. 
+              intervenants</span> (expert ou avocat) est fixé à : <span class="bold">1&nbsp;600 </span>. 
           </div>
 
           <ul class="bold">
-            <li>Expertise amiable : 1 200 € </li>
+            <li>Expertise amiable : 1 200  </li>
             <li>
               Diligences amiables effectuées par votre avocat
-              <div>o 150 € en cas d’échec de la transaction </div>
-              <div>o 400 € en cas de transaction aboutie et exécutée)</div>
+              <div>o 150  en cas d?échec de la transaction </div>
+              <div>o 400  en cas de transaction aboutie et exécutée)</div>
             </li>
           </ul>
 
@@ -1459,16 +1470,16 @@
           </div>
 
           <div>
-            Lorsque le dossier fait l’objet d’une procédure, des dépenses
-            d’honoraires et de frais doivent être engagées. Elles sont prises en
+            Lorsque le dossier fait l?objet d?une procédure, des dépenses
+            d?honoraires et de frais doivent être engagées. Elles sont prises en
             charge dans les limites suivantes :
           </div>
 
           <ul>
             <li>
-              <span class="bold">Frais d’Expertise Judiciaire</span> : Ils sont pris en charge lorsqu’il
+              <span class="bold">Frais d?Expertise Judiciaire</span> : Ils sont pris en charge lorsqu?il
               s'agit de l'expert judiciaire désigné à votre demande après notre
-              accord préalable dans la limite de <span class="bold">5&nbsp;500 €</span>.
+              accord préalable dans la limite de <span class="bold">5&nbsp;500 </span>.
             </li>
             <li>
               <span class="bold">Frais et honoraires du Commissaire de justice</span> : Ils sont
@@ -1476,10 +1487,10 @@
               profession.
             </li>
             <li>
-              <span class="bold">Honoraires et frais d’avocat</span> :  Ce sont les honoraires, y
-              compris ceux d’étude et les frais inhérents au traitement de
+              <span class="bold">Honoraires et frais d?avocat</span> :  Ce sont les honoraires, y
+              compris ceux d?étude et les frais inhérents au traitement de
               votre dossier (déplacement, secrétariat, photocopies, téléphone
-              …), dûment justifiés, que nous sommes susceptibles de verser
+              ?), dûment justifiés, que nous sommes susceptibles de verser
               à votre conseil pour l'obtention d'une ordonnance, d'un
               jugement ou d'un arrêt. Ces frais et honoraires sont pris en
               charge à hauteur des montants TTC précisés dans le tableau cidessous :
@@ -1493,18 +1504,18 @@
             </tr>
             <tr>
               <td>
-                Rédaction d’un dire, d’une déclaration de créance
+                Rédaction d?un dire, d?une déclaration de créance
               </td>
               <td class="bold">
-                100 €
+                100 
               </td>
             </tr>
             <tr>
               <td>
-                Assistance à une mesure d’instruction oud’expertise
+                Assistance à une mesure d?instruction oud?expertise
               </td>
               <td class="bold">
-                450 €
+                450 
               </td>
             </tr>
             <tr>
@@ -1512,14 +1523,14 @@
                 administrative, civile ou disciplinaire
               </td>
               <td class="bold">
-                600 €
+                600 
               </td>
             </tr>
             <tr>
               <td>Recours gracieux (contentieux administratif)
               </td>
               <td class="bold">
-                375 €
+                375 
               </td>
             </tr>
             <tr class="titre1">
@@ -1531,46 +1542,46 @@
               <td>Référé
               </td>
               <td class="bold">
-                850 €
+                850 
               </td>
             </tr>
             <tr>
               <td>Juridiction statuant avant dire droit
               </td>
               <td class="bold">
-                500 €
+                500 
               </td>
             </tr>
             <tr>
               <td>Chambre de Proximité
               </td>
               <td class="bold">
-                850 €
+                850 
               </td>
             </tr>
             <tr>
               <td>Tribunal Judiciaire (hors Chambre de Proximité)
               </td>
               <td class="bold">
-                1 200 €
+                1 200 
               </td>
             </tr>
             <tr>
               <td>Tribunal Administratif
               </td>
               <td class="bold">
-                1 200 €
+                1 200 
               </td>
             </tr>
             <tr>
               <td>Tribunal de Commerce
               </td>
               <td class="bold">
-                1 200 €
+                1 200 
               </td>
             </tr>
             <tr>
-              <td>Conseil des Prud’hommes
+              <td>Conseil des Prud?hommes
                 <ul>
                   <li>en conciliation (échec)</li>
                   <li>en conciliation (réussite)</li>
@@ -1580,17 +1591,17 @@
               </td>
               <td class="bold">
                 <br>
-                600€<br>
-                1 200€<br>
-                1 000€<br>
-                810€
+                600<br>
+                1 200<br>
+                1 000<br>
+                810
               </td>
             </tr>
             <tr>
               <td>Autres juridictions
               </td>
               <td class="bold">
-                875 €
+                875 
               </td>
             </tr>
             <tr class="titre1">
@@ -1602,49 +1613,49 @@
               <td>Tribunal de police
               </td>
               <td class="bold">
-                700 €
+                700 
               </td>
             </tr>
             <tr>
               <td>Tribunal correctionnel
               </td>
               <td class="bold">
-                1 000 €
+                1 000 
               </td>
             </tr>
             <tr>
               <td>Médiation pénale
               </td>
               <td class="bold">
-                665 €
+                665 
               </td>
             </tr>
             <tr>
               <td>Juge des libertés
               </td>
               <td class="bold">
-                565 €
+                565 
               </td>
             </tr>
             <tr>
-              <td>Chambre de l’instruction
+              <td>Chambre de l?instruction
               </td>
               <td class="bold">
-                625 €
+                625 
               </td>
             </tr>
             <tr>
               <td>Garde à vue / Visite en prison
               </td>
               <td class="bold">
-                540 €
+                540 
               </td>
             </tr>
             <tr>
               <td>Démarches au parquet 
               </td>
               <td class="bold">
-                50 €
+                50 
               </td>
             </tr>
             <tr class="titre1">
@@ -1653,18 +1664,18 @@
               <td></td>
             </tr>
             <tr>
-              <td>Cour d’Appel
+              <td>Cour d?Appel
               </td>
               <td class="bold">
-                1 900 €
+                1 900 
               </td>
             </tr>
             <tr>
               <td>Requête devant le 1er Président de la Cour
-                d’Appel
+                d?Appel
               </td>
               <td class="bold">
-                600 €
+                600 
               </td>
             </tr>
             <tr class="titre1">
@@ -1673,11 +1684,11 @@
               <td></td>
             </tr>
             <tr>
-              <td>Cour de Cassation – Conseil d’Etat – Cour
-                d’Assises
+              <td>Cour de Cassation ? Conseil d?Etat ? Cour
+                d?Assises
               </td>
               <td class="bold">
-                2 240 €
+                2 240 
               </td>
             </tr>
             <tr class="titre1">
@@ -1686,24 +1697,24 @@
               <td></td>
             </tr>
             <tr>
-              <td>Juge de l’exécution
+              <td>Juge de l?exécution
               </td>
               <td class="bold">
-                800 €
+                800 
               </td>
             </tr>
             <tr>
-              <td>Suivi de l’exécution
+              <td>Suivi de l?exécution
               </td>
               <td class="bold">
-                190 €
+                190 
               </td>
             </tr>
             <tr>
-              <td>Transaction menée jusqu’à son terme
+              <td>Transaction menée jusqu?à son terme
               </td>
               <td class="bold">
-                645 €
+                645 
               </td>
             </tr>
           </table>
@@ -1725,7 +1736,7 @@
                 procédure judiciaire, les cautions pénales ainsi que les
                 consignations de partie civile.
               </li>
-              <li>Les sommes réclamées par l’administration, les taxes,
+              <li>Les sommes réclamées par l?administration, les taxes,
                 droits et pénalités.
               </li>
               <li>Les frais et honoraires d'enquête pour identifier ou
@@ -1733,18 +1744,18 @@
                 patrimoine ainsi que les dépenses nécessaires à la mise
                 en place de mesures conservatoires.
               </li>
-              <li>Les frais et honoraires d’expert-comptable</li>
-              <li>Les frais et honoraires d’avocat postulant.</li>
+              <li>Les frais et honoraires d?expert-comptable</li>
+              <li>Les frais et honoraires d?avocat postulant.</li>
               <li>Les honoraires de résultat.</li>
             </ul>
           </div>
 
-          <div class="titre1">ARTICLE 6 – QUELLES SONT LES FORMALITES A ACCOMPLIR
+          <div class="titre1">ARTICLE 6 ? QUELLES SONT LES FORMALITES A ACCOMPLIR
             POUR LA MISE EN JEU DE LA GARANTIE ?
           </div>
 
           <div>Vous pouvez, dans un premier temps, si vous souhaitez obtenir des
-            informations juridiques, contacter notre service d’informations
+            informations juridiques, contacter notre service d?informations
             juridiques par téléphone
           </div>
 
@@ -1755,13 +1766,13 @@
             télécommunication).
           </div>
 
-          <div>Si vous souhaitez bénéficier de l’ensemble de nos prestations, tout
+          <div>Si vous souhaitez bénéficier de l?ensemble de nos prestations, tout
             sinistre susceptible de mettre en jeu la garantie doit être déclaré, par
             écrit, à votre Courtier ou à :
           </div>
 
           <div class="center"><span class="bold">GROUPAMA PROTECTION JURIDIQUE</span>
-            TSA 41234 – 92919 LA DEFENSE CEDEX
+            TSA 41234 ? 92919 LA DEFENSE CEDEX
             Ou par mail à : declaration.sinistre@protectionjuridique.fr
           </div>
 
@@ -1769,10 +1780,10 @@
             déclaration de sinistre doit être transmise au plus tard dans
             les TRENTE JOURS ouvrés à compter de la date à laquelle vous
             en avez eu connaissance ou à compter du refus opposé à une
-            réclamation dont vous êtes l’auteur ou le destinataire, sous
-            peine de déchéance de la garantie, <span class="underline">s’il est établi que le retard
+            réclamation dont vous êtes l?auteur ou le destinataire, sous
+            peine de déchéance de la garantie, <span class="underline">s?il est établi que le retard
               dans la déclaration nous cause un préjudice</span>, conformément à
-            l’article L 113-2 du Code des Assurances.
+            l?article L 113-2 du Code des Assurances.
           </div>
 
           <div>Dans le cadre de cette déclaration, vous devez indiquer le numéro de
@@ -1786,10 +1797,10 @@
             honoraires appelés ou réglés antérieurement à la déclaration
             ainsi que ceux correspondant à des prestations ou des actes
             de procédures réalisés avant la déclaration, sauf si vous
-            pouvez justifier d’une urgence à les avoir engagés.
+            pouvez justifier d?une urgence à les avoir engagés.
           </div>
 
-          <div class="titre1">ARTICLE 7 – LIBRE CHOIX DU DEFENSEUR</div>
+          <div class="titre1">ARTICLE 7 ? LIBRE CHOIX DU DEFENSEUR</div>
 
           <div>Lorsque l'intervention d'un avocat ou de toute personne qualifiée par
             la législation ou la réglementation en vigueur, pour défendre,
@@ -1813,10 +1824,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -1828,11 +1839,11 @@
             façon indépendante, un litige qui oppose, par exemple, deux assurés.
           </div>
           
-          <div class="titre1">ARTICLE 8 – ARBITRAGE</div>
+          <div class="titre1">ARTICLE 8 ? ARBITRAGE</div>
 
           <div>En cas de désaccord entre vous et nous sur les mesures à prendre
-            pour régler votre dossier (ex : désaccord sur l’opportunité de saisir
-            une juridiction ou d’exercer une voie de recours) :
+            pour régler votre dossier (ex : désaccord sur l?opportunité de saisir
+            une juridiction ou d?exercer une voie de recours) :
           </div>
 
           <div><span class="bold">8.1</span> - Vous avez la faculté de soumettre ce désaccord à une tierce
@@ -1846,33 +1857,33 @@
           </ul>
 
           <div>Les honoraires de la tierce personne, librement désignée par vous,
-            sont pris en charge par nous dans la <span class="bold">limite de 200 € TTC</span>.
+            sont pris en charge par nous dans la <span class="bold">limite de 200  TTC</span>.
           </div>
 
-          <div><span class="bold">8.2</span> - Conformément à l’article L127-4 du Code des Assurances, ce
-            désaccord peut être soumis à l’appréciation d’une tierce personne
-            <span class="underline">désignée d’un commun accord</span> entre nous et vous ou, à défaut, par le
+          <div><span class="bold">8.2</span> - Conformément à l?article L127-4 du Code des Assurances, ce
+            désaccord peut être soumis à l?appréciation d?une tierce personne
+            <span class="underline">désignée d?un commun accord</span> entre nous et vous ou, à défaut, par le
             Président du Tribunal Judiciaire statuant selon la procédure accélérée
             au fond.
           </div>
 
-          <div>Les frais exposés pour la mise en œuvre de cette faculté sont à notre
+          <div>Les frais exposés pour la mise en ?uvre de cette faculté sont à notre
             charge, sauf décision contraire de la juridiction saisie.
           </div>
           
           <div>Si vous engagez, à vos frais, une procédure contentieuse et obtenez
             une solution plus favorable que celle ayant été proposée par nous ou
-            que celle proposée par l’arbitre, nous vous remboursons les frais
-            exposés pour l’exercice de cette action, dans la limite de la garantie.
+            que celle proposée par l?arbitre, nous vous remboursons les frais
+            exposés pour l?exercice de cette action, dans la limite de la garantie.
           </div>
 
-          <div class="titre1">ARTICLE 9 – QUELLES SONT LES AUTRES CLAUSES
+          <div class="titre1">ARTICLE 9 ? QUELLES SONT LES AUTRES CLAUSES
             APPLICABLES ?
           </div>
 
-          <div class="titre2">9.1 – SUBROGATION</div>
+          <div class="titre2">9.1 ? SUBROGATION</div>
 
-          <div>9.1 – SUBROGATION
+          <div>9.1 ? SUBROGATION
             Dès lors que nous exposons des frais externes, nous sommes
             susceptibles de récupérer une partie ou la totalité des sommes que
             nous avons déboursées pour votre compte.<br>
@@ -1892,73 +1903,73 @@
             des sommes que nous avons engagées.
           </div>
 
-          <div class="titre2">9.2 – PRESCRIPTION</div>
+          <div class="titre2">9.2 ? PRESCRIPTION</div>
 
-          <div>En application de l’article L 114-1 du Code des assurances, toute
+          <div>En application de l?article L 114-1 du Code des assurances, toute
             action dérivant du présent contrat est prescrite par deux ans à
-            compter de l’évènement qui y donne naissance.
+            compter de l?évènement qui y donne naissance.
             Toutefois, ce délai ne court :
           </div>
 
-          <div>• En cas de réticence, omission, déclaration fausse ou inexacte sur le
-            risque couru, que du jour où l’assureur en a eu connaissance ;<br>
-            • En cas de sinistre, que du jour où les intéressés en ont eu
-            connaissance, s’ils prouvent qu’ils l’ont ignoré jusque-là.
-            Quand l’action de l’assuré contre l’assureur a pour cause le recours
-            d’un tiers, ce délai de prescription ne court que du jour où ce tiers a
-            exercé une action en justice contre l’assuré ou a été indemnisé par ce
+          <div>? En cas de réticence, omission, déclaration fausse ou inexacte sur le
+            risque couru, que du jour où l?assureur en a eu connaissance ;<br>
+            ? En cas de sinistre, que du jour où les intéressés en ont eu
+            connaissance, s?ils prouvent qu?ils l?ont ignoré jusque-là.
+            Quand l?action de l?assuré contre l?assureur a pour cause le recours
+            d?un tiers, ce délai de prescription ne court que du jour où ce tiers a
+            exercé une action en justice contre l?assuré ou a été indemnisé par ce
             dernier.
           </div>
 
           <div class="mt-medium">Ce délai de prescription peut être interrompu, conformément à
-            l’article L 114-2 du Code des assurances, par une des causes
-            ordinaires d’interruption suivantes :<br>
-            • La reconnaissance par le débiteur du droit de celui contre lequel il
+            l?article L 114-2 du Code des assurances, par une des causes
+            ordinaires d?interruption suivantes :<br>
+            ? La reconnaissance par le débiteur du droit de celui contre lequel il
             prescrivait (article 2240 du Code civil) ;<br>
-            • Une demande en justice, même en référé, jusqu’à extinction de
-            l’instance. Il en est de même lorsqu’elle est portée devant une
-            juridiction incompétente ou lorsque l’acte de saisine de la juridiction
-            est annulé par l’effet d’un vice de procédure (articles 2241 et 2242 du
-            Code civil). L’interruption est non avenue si le demandeur se désiste
-            de sa demande ou laisse périmer l’instance, ou si sa demande est
+            ? Une demande en justice, même en référé, jusqu?à extinction de
+            l?instance. Il en est de même lorsqu?elle est portée devant une
+            juridiction incompétente ou lorsque l?acte de saisine de la juridiction
+            est annulé par l?effet d?un vice de procédure (articles 2241 et 2242 du
+            Code civil). L?interruption est non avenue si le demandeur se désiste
+            de sa demande ou laisse périmer l?instance, ou si sa demande est
             définitivement rejetée (article 2243 du Code civil) ;<br>
-            • Une mesure conservatoire prise en application du Code des
-            procédures civiles d’exécution ou un acte d’exécution forcée (article
+            ? Une mesure conservatoire prise en application du Code des
+            procédures civiles d?exécution ou un acte d?exécution forcée (article
             2244 du Code civil).<br>
             Il est rappelé que :<br>
-            L’interpellation faite à l’un des débiteurs solidaires par une demande
-            en justice ou par un acte d’exécution forcée ou la reconnaissance par
+            L?interpellation faite à l?un des débiteurs solidaires par une demande
+            en justice ou par un acte d?exécution forcée ou la reconnaissance par
             le débiteur du droit de celui contre lequel il prescrivait interrompt le
             délai de prescription contre tous les autres, même contre leurs
             héritiers.<br>
-            En revanche, l’interpellation faite à l’un des héritiers d’un débiteur
-            solidaire ou la reconnaissance de cet héritier n’interrompt pas le délai
-            de prescription à l’égard des autres cohéritiers, même en cas de
-            créance hypothécaire, si l’obligation est divisible. Cette interpellation
-            ou cette reconnaissance n’interrompt le délai de prescription, à l’égard
+            En revanche, l?interpellation faite à l?un des héritiers d?un débiteur
+            solidaire ou la reconnaissance de cet héritier n?interrompt pas le délai
+            de prescription à l?égard des autres cohéritiers, même en cas de
+            créance hypothécaire, si l?obligation est divisible. Cette interpellation
+            ou cette reconnaissance n?interrompt le délai de prescription, à l?égard
             des autres codébiteurs, que pour la part dont cet héritier est tenu.
-            Pour interrompre le délai de prescription pour le tout, à l’égard des
-            autres codébiteurs, il faut l’interpellation faite à tous les héritiers du
+            Pour interrompre le délai de prescription pour le tout, à l?égard des
+            autres codébiteurs, il faut l?interpellation faite à tous les héritiers du
             débiteur décédé ou la reconnaissance de tous ces héritiers (article
             2245 du Code civil).
           </div>
 
-          <div class="mt-medium">L’interpellation faite au débiteur principal ou sa reconnaissance
+          <div class="mt-medium">L?interpellation faite au débiteur principal ou sa reconnaissance
             interrompt le délai de prescription contre la caution (article 2246 du
             Code civil).<br>
             Le délai de prescription peut être interrompu également par :<br>
-            • La désignation d’un expert à la suite d’un sinistre ;<br>
-            • L’envoi d’une lettre recommandée ou d’un envoi recommandé
-            électronique, avec accusé de réception (adressés par l’Assureur à
-            l’Assuré en ce qui concerne l’action en paiement de la cotisation et
-            par l’Assuré à l’Assureur en ce qui concerne le règlement de
-            l’indemnité de sinistre).
+            ? La désignation d?un expert à la suite d?un sinistre ;<br>
+            ? L?envoi d?une lettre recommandée ou d?un envoi recommandé
+            électronique, avec accusé de réception (adressés par l?Assureur à
+            l?Assuré en ce qui concerne l?action en paiement de la cotisation et
+            par l?Assuré à l?Assureur en ce qui concerne le règlement de
+            l?indemnité de sinistre).
           </div>
 
-          <div class="titre2">9.3 – PROTECTION DES DONNEES PERSONNELLES</div>
+          <div class="titre2">9.3 ? PROTECTION DES DONNEES PERSONNELLES</div>
 
           <div>Des données à caractère personnel sont recueillies à différentes
-            étapes de nos activités commerciales ou d’assurance concernant les
+            étapes de nos activités commerciales ou d?assurance concernant les
             assurés ou les personnes parties ou intéressées aux contrats. Ces
             données sont traitées dans le respect des réglementations, et
             notamment des droits des personnes.
@@ -1971,25 +1982,25 @@
           <div>Vous disposez, en justifiant de votre identité, de droits sur vos
             données que vous pouvez exercer facilement :<br>
             Droit de prendre connaissance des informations dont nous disposons
-            et de demander à les compléter ou les corriger (droits d’accès et de
+            et de demander à les compléter ou les corriger (droits d?accès et de
             rectification).<br>
-            Droit de demander l’effacement de vos données ou d’en limiter
-            l’utilisation (droits de suppression des données ou de limitation).
-            Droit de vous opposer à l’utilisation de vos données, notamment
-            concernant la prospection commerciale (droit d’opposition).<br>
+            Droit de demander l?effacement de vos données ou d?en limiter
+            l?utilisation (droits de suppression des données ou de limitation).
+            Droit de vous opposer à l?utilisation de vos données, notamment
+            concernant la prospection commerciale (droit d?opposition).<br>
             Droit de récupérer les données que vous nous avez personnellement
-            fournies pour l’exécution de votre contrat ou pour lesquelles vous
+            fournies pour l?exécution de votre contrat ou pour lesquelles vous
             avez donné votre accord (droit à la portabilité des données).
-            Droit de définir des directives relatives à la conservation, l’effacement
+            Droit de définir des directives relatives à la conservation, l?effacement
             et la communication de vos données après votre décès.
           </div>
 
           <div class="mt-medium">Vous pouvez exercer ces droits via notre site Groupama-pj.fr
-            (rubrique « Vie privée – Notice Cookies) »), par courrier postal aux
+            (rubrique « Vie privée ? Notice Cookies) »), par courrier postal aux
             coordonnées précisées sur vos documents contractuels, ou par mail
             à : contactdrpo@groupama-pj.fr.<br>
             Notre Politique de Protection des Données, la description détaillée des
-            traitements mis en œuvre et les modalités d’exercice de vos droits
+            traitements mis en ?uvre et les modalités d?exercice de vos droits
             sont actualisés régulièrement et accessibles sur notre site internet
             Groupama-pj.fr<br>
             Toute demande concernant vos données personnelles peut aussi être
@@ -1997,7 +2008,7 @@
             contactDPO@groupama.com. La réponse vous sera apportée dans un
             délai maximum de 30 jours.<br>
             Vous pouvez également déposer une réclamation auprès de la
-            Commission Nationale de l’Informatique et des Libertés (CNIL) si vous
+            Commission Nationale de l?Informatique et des Libertés (CNIL) si vous
             estimez que nous avons manqué à nos obligations concernant vos
             données.
           </div>
@@ -2005,35 +2016,35 @@
           <div class="italic bleu1 mt-medium">Pourquoi collectons-nous des données personnelles ?</div>
 
           <div>Les données recueillies à différentes étapes de la souscription ou de
-            la gestion des contrats d’assurance sont nécessaires aux objectifs
+            la gestion des contrats d?assurance sont nécessaires aux objectifs
             suivants :
           </div>
           
-          <div class="bleu2 italic">Passation, gestion, exécution des contrats d’assurance.</div>
+          <div class="bleu2 italic">Passation, gestion, exécution des contrats d?assurance.</div>
 
-          <div>Les données recueillies pour la passation, la gestion et l’exécution des
+          <div>Les données recueillies pour la passation, la gestion et l?exécution des
             contrats, vous concernant ou concernant les personnes parties,
             intéressées ou intervenant au contrat, ont pour objectifs :
           </div>
 
-          <div>• L’étude des besoins en assurance afin de proposer des contrats
+          <div>? L?étude des besoins en assurance afin de proposer des contrats
             adaptés à chaque situation<br>
-            • L’examen, l’acceptation, le contrôle et la surveillance du risque<br>
-            • La gestion des contrats (de la phase précontractuelle à la résiliation
-            du contrat), et l’exécution des garanties du contrat,<br>
-            • La gestion des clients<br>
-            • L’exercice des recours, et la gestion des réclamations et des
+            ? L?examen, l?acceptation, le contrôle et la surveillance du risque<br>
+            ? La gestion des contrats (de la phase précontractuelle à la résiliation
+            du contrat), et l?exécution des garanties du contrat,<br>
+            ? La gestion des clients<br>
+            ? L?exercice des recours, et la gestion des réclamations et des
             contentieux<br>
-            • L’élaboration des statistiques et études actuarielles<br>
-            • La mise en place d’actions de prévention<br>
-            • Le respect d’obligations légale ou réglementaire<br>
-            • La conduite d’activités de recherche et développement dans le
+            ? L?élaboration des statistiques et études actuarielles<br>
+            ? La mise en place d?actions de prévention<br>
+            ? Le respect d?obligations légale ou réglementaire<br>
+            ? La conduite d?activités de recherche et développement dans le
             cadre de la vie du contrat
           </div>
 
-          <div>Des données de santé sont susceptibles d’être traitées dès lors
-            qu’elles sont nécessaires à la passation, la gestion ou l’exécution des
-            contrats d’assurance. Ces informations sont traitées dans le respect
+          <div>Des données de santé sont susceptibles d?être traitées dès lors
+            qu?elles sont nécessaires à la passation, la gestion ou l?exécution des
+            contrats d?assurance. Ces informations sont traitées dans le respect
             de la confidentialité médicale et avec votre accord. En cas de
           </div>
         </div>
@@ -2050,10 +2061,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -2061,34 +2072,34 @@
 
         <div class="content mt-medium mb-medium">
 
-          <div>conclusion d’un contrat, les données sont conservées pour la durée
-            du contrat ou des sinistres, et jusqu’à expiration des délais légaux de
+          <div>conclusion d?un contrat, les données sont conservées pour la durée
+            du contrat ou des sinistres, et jusqu?à expiration des délais légaux de
             prescription.<br>
-            En l’absence de conclusion d’un contrat (données prospects) :
+            En l?absence de conclusion d?un contrat (données prospects) :
             - Les données de santé sont conservées 5 ans maximum à des fins
             probatoires ;<br>
             - Les autres données pourront être conservées 3 ans maximum.
           </div>
 
-          <div class="italic bleu2">Lutte contre la fraude à l’assurance</div>
+          <div class="italic bleu2">Lutte contre la fraude à l?assurance</div>
 
-          <div>L’Assureur, qui a pour obligation de protéger la mutualité des assurés
+          <div>L?Assureur, qui a pour obligation de protéger la mutualité des assurés
             et éviter la prise en charge de demandes injustifiées, a un intérêt
             légitime à lutter contre les fraudes.<br>
             Des données personnelles (y compris des données de santé) pourront
             donc être utilisées pour prévenir, détecter et gérer les fraudes quel
-            qu’en soit l’auteur. Ces dispositifs de lutte contre la fraude peuvent
-            conduire à l’inscription sur une liste de personnes présentant un
-            risque de fraude. L’Agence pour la Lutte contre la Fraude à l’Assurance
+            qu?en soit l?auteur. Ces dispositifs de lutte contre la fraude peuvent
+            conduire à l?inscription sur une liste de personnes présentant un
+            risque de fraude. L?Agence pour la Lutte contre la Fraude à l?Assurance
             (ALFA) peut être destinataire de données à cette fin. Les droits sur
             ces données peuvent être exercés à tout moment par courrier à ALFA,
-            1, rue Jules Lefebvre – 75431 Paris Cedex 09.<br>
+            1, rue Jules Lefebvre ? 75431 Paris Cedex 09.<br>
             Les données traitées pour la lutte contre la fraude sont conservées 5
             ans maximum à compter de la clôture du dossier de fraude. En cas de
-            procédure judiciaire, les données seront conservées jusqu’à la fin de
+            procédure judiciaire, les données seront conservées jusqu?à la fin de
             la procédure, et expiration des prescriptions applicables. Les
             personnes inscrites sur une liste de fraudeurs présumés, seront
-            désinscrites passé le délai de 5 ans à compter de l’inscription sur cette
+            désinscrites passé le délai de 5 ans à compter de l?inscription sur cette
             liste.
           </div>
 
@@ -2096,18 +2107,18 @@
             terrorisme
           </div>
 
-          <div>Pour répondre à ses obligations légales, l’Assureur met un œuvre des
+          <div>Pour répondre à ses obligations légales, l?Assureur met un ?uvre des
             dispositifs de surveillance destinés à la lutte contre le blanchiment de
-            capitaux, le financement du terrorisme et permettre l’application de
+            capitaux, le financement du terrorisme et permettre l?application de
             sanctions financières.<br>
             Les données utilisées à cette fin sont conservées 5 ans à compter de
-            clôture du compte ou de la fin de la relation avec l’Assureur. Celles
+            clôture du compte ou de la fin de la relation avec l?Assureur. Celles
             relatives aux opérations réalisées par les personnes sont conservées
             5 ans à compter de leur exécution y compris en cas de clôture du
-            compte ou de fin de la relation avec l’Assureur. TRACFIN peut être
-            destinataire d’informations à cette fin. Conformément au Code
-            monétaire et financier, le droit d’accès à ces données s’exerce auprès
-            de la Commission Nationale de l’Informatique et des Libertés (voir
+            compte ou de fin de la relation avec l?Assureur. TRACFIN peut être
+            destinataire d?informations à cette fin. Conformément au Code
+            monétaire et financier, le droit d?accès à ces données s?exerce auprès
+            de la Commission Nationale de l?Informatique et des Libertés (voir
             cnil.fr).
           </div>
 
@@ -2121,7 +2132,7 @@
             nos échanges (courriers, e-mails ou téléphoniques) peuvent être
             enregistrés et analysés. Les enregistrements téléphoniques sont
             conservés pour une durée maximale de 2 mois et les éléments
-            nécessaires à l’amélioration de notre qualité de services sont
+            nécessaires à l?amélioration de notre qualité de services sont
             conservés pour une durée maximale de 3 ans.
           </div>
 
@@ -2129,11 +2140,11 @@
 
           <div>Dans le cadre de nos relations, vous pouvez être amené à nous
             téléphoner. Nous vous informons que ces appels téléphoniques
-            peuvent être enregistrés afin de s’assurer de la bonne exécution de
+            peuvent être enregistrés afin de s?assurer de la bonne exécution de
             nos prestations à votre égard et plus généralement à faire progresser
             la qualité de service. Ces enregistrements sont destinés aux seuls
             services en charge de votre appel. Si vous avez été enregistré et que
-            vous souhaitez écouter l’enregistrement d’un entretien, vous pouvez
+            vous souhaitez écouter l?enregistrement d?un entretien, vous pouvez
             en faire la demande selon les modalités décrites ci-dessus
           </div>
 
@@ -2149,22 +2160,22 @@
           </div>
 
           <div class="bold bleu1 italic">
-            Transferts d’informations hors de l’Union Européenne : 
+            Transferts d?informations hors de l?Union Européenne : 
           </div>
 
-          <div class="bold italic">Les données personnelles sont traitées au sein de l’Union
-            Européenne. Toutefois, des données peuvent faire l’objet de
+          <div class="bold italic">Les données personnelles sont traitées au sein de l?Union
+            Européenne. Toutefois, des données peuvent faire l?objet de
             transferts vers des pays hors Union Européenne, dans le
             respect des règles de protection des données et encadrées par
             des garanties appropriées (ex : clauses contractuelles types
             de la commission européenne, pays présentant un niveau de
-            protection des données reconnu comme adéquat…).
+            protection des données reconnu comme adéquat?).
           </div>
 
-          <div>Ces transferts peuvent être effectués pour l’exécution des contrats, la
-            lutte contre la fraude, le respect d’obligations légales ou
-            réglementaires, la gestion d’actions ou contentieux permettant
-            notamment à l’Assureur d’assurer la constatation, l’exercice ou la
+          <div>Ces transferts peuvent être effectués pour l?exécution des contrats, la
+            lutte contre la fraude, le respect d?obligations légales ou
+            réglementaires, la gestion d?actions ou contentieux permettant
+            notamment à l?Assureur d?assurer la constatation, l?exercice ou la
             défense de ses droits en justice ou pour les besoins de la défense des
             personnes concernées.
           </div>
@@ -2176,15 +2187,15 @@
           </div>
 
           <ul>
-            <li>Aux services de l’Assureur en charge de la gestion des contrats</li>
-            <li>Aux services de l’Assureur ou du Groupe Groupama en charge de
+            <li>Aux services de l?Assureur en charge de la gestion des contrats</li>
+            <li>Aux services de l?Assureur ou du Groupe Groupama en charge de
               la lutte contre la fraude ou de la lutte contre le blanchiment et le
-              financement du terrorisme, de l’audit et du contrôle.
+              financement du terrorisme, de l?audit et du contrôle.
             </li>
             <li>Ces informations peuvent également être communiquées, dès
               lors que cela est nécessaire, à nos réassureurs, intermédiaires,
-              partenaires, et sous-traitants, ainsi qu’aux organismes
-              susceptibles d’intervenir dans l’activité d’assurance, tels les
+              partenaires, et sous-traitants, ainsi qu?aux organismes
+              susceptibles d?intervenir dans l?activité d?assurance, tels les
               organismes publics ou autorités de tutelles, ou les organismes
               professionnels (dont ALFA à des fins de lutte contre la fraude et
               TRACFIN pour la lutte contre le blanchiment des capitaux et le
@@ -2196,10 +2207,10 @@
               médicaux).
             </li>
           </ul>
-          <div class="titre2">9.4 – RECLAMATION</div>
+          <div class="titre2">9.4 ? RECLAMATION</div>
 
-          <div>Pour toute demande d’information ou toute réclamation (désaccord,
-            mécontentement) relative à votre contrat d’assurance, vous pouvez
+          <div>Pour toute demande d?information ou toute réclamation (désaccord,
+            mécontentement) relative à votre contrat d?assurance, vous pouvez
             vous adresser à votre interlocuteur habituel.<br>
             Si cette première réponse ne vous satisfait pas, votre réclamation
             peut être transmise à :
@@ -2216,27 +2227,27 @@
             mois au plus. En cas de circonstances particulières nécessitant un
             délai plus long, vous en serez informé. En dernier lieu, sous réserve
             d'avoir épuisé toutes les voies de recours exposées ci-dessus, vous
-            pourrez saisir la Médiation de l’Assurance sur le site www.mediationassurance.org ou par courrier à : Médiation de l'Assurance TSA
+            pourrez saisir la Médiation de l?Assurance sur le site www.mediationassurance.org ou par courrier à : Médiation de l'Assurance TSA
             50110, 75441 Paris Cedex 09. Si l'avis de la Médiation de l'assurance
             ne vous satisfait pas, vous pouvez éventuellement saisir la justice.
           </div>
 
-          <div class="titre2">9.5 – ORGANISME DE CONTROLE</div>
+          <div class="titre2">9.5 ? ORGANISME DE CONTROLE</div>
 
-          <div>Nos activités sont soumises au contrôle de l’<span class="bold">Autorité de Contrôle
+          <div>Nos activités sont soumises au contrôle de l?<span class="bold">Autorité de Contrôle
             Prudentiel et de Résolution (ACPR) - 4 place de Budapest - CS
             92459 - 75436 Paris Cedex 09</span>.
           </div>
 
-          <div class="titre1">ARTICLE 10 – VIE DU CONTRAT</div>
+          <div class="titre1">ARTICLE 10 ? VIE DU CONTRAT</div>
 
           <div class="titre2">10.1 PRISE D'EFFET ET DUREE DU CONTRAT</div>
 
-          <div>Le contrat prend effet pour une durée minimale d’un an – à la date
+          <div>Le contrat prend effet pour une durée minimale d?un an ? à la date
             figurant dans les Dispositions Particulières de votre contrat, sous
             réserve du paiement de la cotisation.
             Il se renouvelle par tacite reconduction année après année, sauf
-            résiliation conformément à l’<span class="bold">article 10-2</span> des présentes Dispositions
+            résiliation conformément à l?<span class="bold">article 10-2</span> des présentes Dispositions
             Générales.
           </div>
 
@@ -2260,7 +2271,7 @@
             <li>
               <div class="bleu1 bold">Par Vous</div>
               <ul>
-                <li>Dans le cas prévu à l’<span class="bold">article 10.4</span> (« Adaptation et révision
+                <li>Dans le cas prévu à l?<span class="bold">article 10.4</span> (« Adaptation et révision
                   de la cotisation »).</li>
               </ul>
             </li>
@@ -2292,7 +2303,7 @@
           <div>Lorsque vous avez la faculté de résilier le contrat, vous pouvez le faire
             à votre choix, soit par lettre recommandée, soit par une déclaration
             faite contre récépissé au siège social de <span class="bold">GROUPAMA PROTECTION
-              JURIDIQUE</span> à l’adresse postale TSA 41234 - 92919 La Défense Cedex
+              JURIDIQUE</span> à l?adresse postale TSA 41234 - 92919 La Défense Cedex
             ou de votre Courtier, soit par acte extrajudiciaire. La résiliation par
             nous doit vous être notifiée par lettre recommandée.
           </div>
@@ -2310,10 +2321,10 @@
           <table>
             <tr >
               <td valign="top" width="50%">
-                <img src="logo-mypp.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/logo-mypp.png" alt="">
               </td>
               <td valign="top" width="50%" style="text-align: right;">
-                <img src="lettre_conseil/GPJ.png" alt="">
+                <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/lettre_conseil/GPJ.png" alt="">
               </td>
             </tr>
           </table>
@@ -2324,7 +2335,7 @@
           <div class="titre2">10.3 PAIEMENT DE LA COTISATION</div>
           <div>Le montant de la cotisation TTC ainsi que ses modalités de paiement
             figurent sur les Dispositions Particulières de votre contrat. La
-            cotisation est payable chaque année, à la date d’échéance. A défaut
+            cotisation est payable chaque année, à la date d?échéance. A défaut
             de paiement dans les dix jours de son échéance, d'une cotisation ou
             d'une fraction de cotisation due, nous pouvons indépendamment de
             notre droit de poursuivre l'exécution du contrat en justice
@@ -2340,15 +2351,15 @@
           </div>
 
           <div>A chaque échéance annuelle, la cotisation sera modifiée en fonction
-            de la variation de l’indice du coût de la construction publié par la
+            de la variation de l?indice du coût de la construction publié par la
             Fédération Française du Bâtiment.<br>
             Cette modification sera proportionnelle à la variation de la valeur de
             cet indice comprise entre la date de souscription et la date
-            d’échéance.<br>
+            d?échéance.<br>
             Le montant du nouveau tarif sera notifié dans les formes habituelles.
             <span class="bold">Lorsque la nouvelle cotisation emporte une majoration
-            indépendamment de l’évolution de la cotisation résultant de la
-            variation de l’indice</span>, vous avez la faculté de résilier le contrat dans
+            indépendamment de l?évolution de la cotisation résultant de la
+            variation de l?indice</span>, vous avez la faculté de résilier le contrat dans
             le mois suivant la date à laquelle vous aurez eu connaissance de la
             majoration, selon les modalités prévues au paragraphe 10.2 "Forme
             de la résiliation". La résiliation prend effet à l'expiration du délai d'un
@@ -2360,47 +2371,47 @@
           </div>
 
           <div class="titre1">ARTICLE 11
-            – LOI APPLICABLE
+            ? LOI APPLICABLE
           </div>
 
           <div>La loi applicable au présent contrat est la loi française.</div>
 
-          <div class="titre1">ARTICLE 12 – DROIT DE RENONCIATION</div>
+          <div class="titre1">ARTICLE 12 ? DROIT DE RENONCIATION</div>
 
-          <div>Si le présent contrat a été souscrit dans le cadre d’une vente à
-            distance, vous bénéficiez, conformément à l’article L112-2-1 du Code des Assurances&nbsp;:
+          <div>Si le présent contrat a été souscrit dans le cadre d?une vente à
+            distance, vous bénéficiez, conformément à l?article L112-2-1 du Code des Assurances&nbsp;:
           </div>
 
           <ul>
-            <li>D’un droit de renonciation dans un délai de 14 jours calendaires
+            <li>D?un droit de renonciation dans un délai de 14 jours calendaires
               révolus à compter de la conclusion du contrat, sans avoir à
               justifier de motif ni à supporter de pénalités,
             </li>
             <li>Du droit à être remboursé
-              – dans le délai maximal de 30 jours à
+              ? dans le délai maximal de 30 jours à
               compter de la réception de la lettre de renonciation par le
               courtier
-              – des sommes réglées et encaissées, le cas échéant,
-              avant l’exercice du droit de renonciation.
+              ? des sommes réglées et encaissées, le cas échéant,
+              avant l?exercice du droit de renonciation.
             </li>
           </ul>
 
-          <div>Pour l’exercice de ce droit, vous êtes informé que toute utilisation de
-            la garantie entrainera l’application du droit proportionnel du service
+          <div>Pour l?exercice de ce droit, vous êtes informé que toute utilisation de
+            la garantie entrainera l?application du droit proportionnel du service
             effectivement fourni, selon la règle de calcul suivante : (montant de
             la cotisation annuelle figurant aux Dispositions Particulières du contrat
             x le nombre de jours garantis / 365).<br>
-            Ce droit de renonciation ne s’applique pas aux contrats exécutés
+            Ce droit de renonciation ne s?applique pas aux contrats exécutés
             intégralement par les deux parties à votre demande expresse, avant
-            l’exercice du droit de renonciation.
+            l?exercice du droit de renonciation.
           </div>
 
           <div class="mt-medium">Pour exercer cette faculté, vous devez adresser au courtier une lettre
             recommandée avec accusé de réception selon le modèle suivant&nbsp;:
           </div>
 
-          <div class="mt-medium background-gris bold">« Je soussigné(e) – Nom Prénom Adresse – déclare renoncer
-            à mon contrat de Protection Juridique dont le n° est le suivant …. »
+          <div class="mt-medium background-gris bold">« Je soussigné(e) ? Nom Prénom Adresse ? déclare renoncer
+            à mon contrat de Protection Juridique dont le n° est le suivant ?. »
             <br>
             <br>
             <table style="width: 100%; font-size: 10px; font-weight: 800;">
@@ -2422,14 +2433,14 @@
 
     <div style="page-break-before:always;"></div>
 
-    <img src="bandeau-my-protect-premium-groupama.png" id="image1">
+    <img src="https://res.cloudinary.com/joolan/image/fetch/https://go.myprotectpremium.com/templates/bandeau-my-protect-premium-groupama.png" id="image1">
     
     <div class="content-conseil">
       <table class="table-conseil line-height-large" style="font-size: 12px;">
         <tr>
           <td valign="top" width="50%">
             <div><span class="text-bleu">N° de contrat: </span>{{demande}}</div>
-            <div><span class="text-bleu">Date d’effet: </span>{{date}}</div>
+            <div><span class="text-bleu">Date d?effet: </span>{{date}}</div>
             <div>Paris, le {{date}}</div>
           </td>
           <td valign="top" width="50%" style="text-align: right;" class="adresse">
@@ -2448,7 +2459,7 @@
       
       <div>
 		    <div style="margin: 7px 0px 7px 0px;">{{titre}} {{nom}},</div>
-        <div style="line-height:15px;">Nous faisons suite à notre entretien du {{date}} au cours duquel nous avons étudié ensemble la formule d’assurance de protection juridique adaptée à votre situation.
+        <div style="line-height:15px;">Nous faisons suite à notre entretien du {{date}} au cours duquel nous avons étudié ensemble la formule d?assurance de protection juridique adaptée à votre situation.
            Vous nous avez communiqué des éléments patrimoniaux pour évaluer vos besoins: </div>
         <div class="text-bleu mt-medium mb-medium">
           Suite à nos échanges, nous vous conseillons le contrat protection juridique My Protect Premium comprenant les prestations et garanties suivantes :</div>
@@ -2460,13 +2471,13 @@
         <tr>
           <td valign="top" width="50%" >
             <ul>
-              <li><span>L’information juridique par téléphone et en ligne</span></li>
-              <li><span>L’assistance «signature contrats » et « formulaires et déclarations »</span></li>
+              <li><span>L?information juridique par téléphone et en ligne</span></li>
+              <li><span>L?assistance «signature contrats » et « formulaires et déclarations »</span></li>
             </ul>
           </td>
           <td valign="top" width="50%">
             <ul>
-              <li><span>La défense de vos intérêts par la recherche d’une solution amiable,</span></li>
+              <li><span>La défense de vos intérêts par la recherche d?une solution amiable,</span></li>
               <li><span>La prise en charge de frais et honoraires en cas de procédure judiciaire</span></li>
             </ul>
   			  </td>
@@ -2478,12 +2489,12 @@
           <tr>
             <td valign="top" width="50%">
               <ul>
-                <li><span>Fiscal : accompagnement, recours précontentieux et contentieux, et prise en charge au titre du barème contractuel en cas de contestation d’un avis de redressement fiscal</span></li>
+                <li><span>Fiscal : accompagnement, recours précontentieux et contentieux, et prise en charge au titre du barème contractuel en cas de contestation d?un avis de redressement fiscal</span></li>
                 <li><span>Succession</span></li>
                 <li><span>Dons et legs</span></li>
                 <li><span>Filiation/ Adoption</span></li>
                 <li><span>Changement de régime matrimonial</span></li>
-                <li><span>Divorce toutes causes ou dissolution d’un PACS</span></li>
+                <li><span>Divorce toutes causes ou dissolution d?un PACS</span></li>
                 <li><span>Pension et obligation alimentaire</span></li>
                 <li><span>Travail</span></li>
                 <li><span>Protection Sociale</span></li>
@@ -2501,7 +2512,7 @@
                 <li><span>Travaux</span></li>
                 <li><span>Aide aux victimes</span></li>
                 <li><span>Défense pénale</span></li>
-                <li><span>Usurpation d’identité</span></li>
+                <li><span>Usurpation d?identité</span></li>
                 <li><span>Deuil numérique</span></li>
                 <li><span>E-réputation</span></li>
                 <li><span>Administration</span></li>
@@ -2511,29 +2522,32 @@
         </table>
         
       <div class="texte-petit">
-        Vous pouvez retrouver le détail, les limites et les conditions de mise en œuvre des garanties dans les dispositions générales que nous vous avons adressées.
+        Vous pouvez retrouver le détail, les limites et les conditions de mise en ?uvre des garanties dans les dispositions générales que nous vous avons adressées.
       </div>
 
-      <div style="page-break-before:always;"></div>
-
-     <div class="bande-conseil mt-large">Votre cotisation :</div>
+  </div>
+  
+  <div style="page-break-before:always;"></div>
+  
+  <div class="content-conseil">
+    <div class="bande-conseil mt-large">Votre cotisation :</div>
 
       <div style="padding: 20px;">
-        <div>Votre cotisation annuelle s’élèvera à un montant total de 180 €, décomposée comme suit :</div>
+        <div>Votre cotisation annuelle s?élèvera à un montant total de 180 , décomposée comme suit :</div>
         <table class="table-conseil">
           <tr>
             <td valign="top" width="50%" >
-              <div style="padding-left:15px;">- Frais de courtage : 80 €</div>
-              <div style="padding-left:15px;">- Honoraires : 86,08 €</div>
+              <div style="padding-left:15px;">- Frais de courtage : 80 </div>
+              <div style="padding-left:15px;">- Honoraires : 86,08 </div>
             </td>
             <td valign="top" width="50%">
-              <div style="padding-left:15px;">- Taxes (13,4%) : 6,96 €</div>
-              <div style="padding-left:15px;">- Prime protection juridique HT : 173,04€</div>
+              <div style="padding-left:15px;">- Taxes (13,4%) : 6,96 </div>
+              <div style="padding-left:15px;">- Prime protection juridique HT : 173,04</div>
             </td>
           </tr>
         </table>
         
-        <div class="mt-medium">En espérant que ces informations vous auront permis d’éclairer votre choix d’assurance, nous vous prions d’agréer, {{titre}}, l’expression de nos salutations dévouées.</div>
+        <div class="mt-medium">En espérant que ces informations vous auront permis d?éclairer votre choix d?assurance, nous vous prions d?agréer, {{titre}}, l?expression de nos salutations dévouées.</div>
         <div class="mt-medium">Cordialement,</div>
       </div>
 
@@ -2563,20 +2577,26 @@
       <tr>
         <td valign="top" width="40%" style="padding-right:10px;">
           <div style="font-weight:bold;">Traitement des réclamations:</div>
-          <div>Pour toute demande d’information ou toute réclamation (désaccord, mécontentement) relative à votre contrat d’assurance, vous pouvez vous adresser à notre service client aux coordonnées qui figurent sur vos Dispositions Générales.
-             Nous nous engageons à accuser réception de votre réclamation dans un délai maximum de 10 jours ouvrables à partir de sa date d’envoi.
-             La réponse définitive à votre réclamation vous sera apportée dans un délai de traitement de 60 jours ouvrés au plus. Si cette réponse ne vous satisfait pas, vous pouvez saisir la Médiation de l’Assurance sur le site www.mediation-assurance.org ou par courrier (Médiation de l'Assurance TSA 50110, 75441 Paris Cedex 09).</div>
+          <div>Pour toute demande d?information ou toute réclamation (désaccord, mécontentement) relative à votre contrat d?assurance, vous pouvez vous adresser à notre service client aux coordonnées qui figurent sur vos Dispositions Générales.
+             Nous nous engageons à accuser réception de votre réclamation dans un délai maximum de 10 jours ouvrables à partir de sa date d?envoi.
+             La réponse définitive à votre réclamation vous sera apportée dans un délai de traitement de 60 jours ouvrés au plus. Si cette réponse ne vous satisfait pas, vous pouvez saisir la Médiation de l?Assurance sur le site www.mediation-assurance.org ou par courrier (Médiation de l'Assurance TSA 50110, 75441 Paris Cedex 09).</div>
         </td>
         <td valign="top" width="40%" style="padding-left:10px;">
           <p>Si l'avis de la Médiation de l'assurance ne vous satisfait pas, vous pouvez éventuellement saisir la justice.</p>
           <p>Pour la distribution des contrats d'assurance, la rémunération de votre mandataire comprend notamment des éléments variables et des avantages non pécuniaires.</p>
           <div style="font-weight:bold;">Protection des données personnelles:</div>
-          <div>Vous avez été informé de vos droits relatifs au traitement de vos données personnelles (droit d’accès, de rectification, de suppression, d’opposition, droit à la portabilité) dans les documents remis antérieurement par l’Assureur.</div>
+          <div>Vous avez été informé de vos droits relatifs au traitement de vos données personnelles (droit d?accès, de rectification, de suppression, d?opposition, droit à la portabilité) dans les documents remis antérieurement par l?Assureur.</div>
         </td>
       </tr>
     </table>
-  <br>
+    <br>
     <div style="font-size:12px; margin-top:8px; padding:8px 0px 8px 0px; border:2px solid red; text-align:center; font-weight:bold;">Merci de communiquer ce code de validation <span style="font-size:15px; color:red;">{{code_confirmation}}</span> à votre interlocuteur.</div>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br>
   </div>
     
   </body>
